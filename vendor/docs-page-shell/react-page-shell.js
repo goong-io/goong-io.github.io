@@ -134,42 +134,42 @@ function PageHelmet() {
   }), React.createElement("link", {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "/maplibre-gl-js-docs/assets/favicon/apple-touch-icon.png?v=rMBbQAR5BL"
+    href: "/goong-js-docs/assets/favicon/apple-touch-icon.png?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "/maplibre-gl-js-docs/assets/favicon/favicon-32x32.png?v=rMBbQAR5BL"
+    href: "/goong-js-docs/assets/favicon/favicon-32x32.png?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "/maplibre-gl-js-docs/assets/favicon/favicon-16x16.png?v=rMBbQAR5BL"
+    href: "/goong-js-docs/assets/favicon/favicon-16x16.png?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "manifest",
-    href: "/maplibre-gl-js-docs/assets/favicon/site.webmanifest?v=rMBbQAR5BL"
+    href: "/goong-js-docs/assets/favicon/site.webmanifest?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "mask-icon",
-    href: "/maplibre-gl-js-docs/assets/favicon/safari-pinned-tab.svg?v=rMBbQAR5BL",
+    href: "/goong-js-docs/assets/favicon/safari-pinned-tab.svg?v=rMBbQAR5BL",
     color: "#4264fb"
   }), React.createElement("link", {
     rel: "shortcut icon",
-    href: "/maplibre-gl-js-docs/assets/favicon/favicon.ico?v=rMBbQAR5BL"
+    href: "/goong-js-docs/assets/favicon/favicon.ico?v=rMBbQAR5BL"
   }), React.createElement("meta", {
     name: "msapplication-TileColor",
     content: "#ffffff"
   }), React.createElement("meta", {
     name: "msapplication-config",
-    content: "/maplibre-gl-js-docs/assets/favicon/browserconfig.xml?v=rMBbQAR5BL"
+    content: "/goong-js-docs/assets/favicon/browserconfig.xml?v=rMBbQAR5BL"
   }), React.createElement("meta", {
     name: "theme-color",
     content: "#ffffff"
   }), React.createElement("meta", {
     name: "twitter:site",
-    content: "@MapLibre"
+    content: "@Goong"
   }), React.createElement("meta", {
     property: "og:site_name",
-    content: "MapLibre"
+    content: "Goong"
   }));
 }
 
@@ -238,7 +238,7 @@ MobileMenuButton.propTypes = {
 
 var language = "en";
 var logoSiteTitle = "Docs";
-var all = "MapLibre";
+var all = "Goong";
 var nav = [
 ];
 var navigationMenuData = {
@@ -248,7 +248,7 @@ var navigationMenuData = {
 	nav: nav
 };
 
-var ORIGIN_DOCS_PRODUCTION = 'https://maplibre.org/maplibre-gl-js-docs';
+var ORIGIN_DOCS_PRODUCTION = 'https://docs.goong.io/goong-js-docs';
 var DEFAULT_SOCIAL_IMAGE_URL = 'https://static-assets.mapbox.com/branding/social/social-1200x630.v1.png';
 var DEFAULT_SOCIAL_IMAGE_THUMBNAIL_URL = 'https://static-assets.mapbox.com/branding/social/social-120x120.v1.png';
 
@@ -336,8 +336,8 @@ function Logo(props) {
   return React.createElement("div", {
     className: "shell-flex-parent shell-flex-parent--center-cross"
   }, React.createElement("a", {
-    href: "https://www.maplibre.org",
-    "aria-label": "MapLibre",
+    href: "https://docs.goong.io",
+    "aria-label": "Goong",
     className: logoClasses,
     style: logoStyles
   }), border, React.createElement("a", {
@@ -423,8 +423,8 @@ function FooterLegalStrip(props) {
     className: props.className
   }, React.createElement("a", {
     className: "shell-link shell-color-gray shell-color-gray-dark-on-hover shell-mr18",
-    href: "https://maplibre.org/"
-  }, "MapLibre"));
+    href: "https://docs.goong.io/"
+  }, "Goong"));
 }
 
 FooterLegalStrip.propTypes = {
@@ -437,25 +437,13 @@ function FooterSocialMediaStrip(props) {
   }, React.createElement("a", {
     "aria-label": "Github",
     className: "shell-color-blue shell-color-blue-dark-on-hover shell-inline-block shell-w36",
-    href: "https://github.com/maplibre"
+    href: "https://github.com/goong-io"
   }, React.createElement("svg", {
     viewBox: "0 0 1790 1790",
     className: "shell-icon shell-icon--s shell-inline"
   }, React.createElement("path", {
     d: "M704 1216q0 40-12.5 82t-43 76-72.5 34-72.5-34-43-76-12.5-82 12.5-82 43-76 72.5-34 72.5 34 43 76 12.5 82zm640 0q0 40-12.5 82t-43 76-72.5 34-72.5-34-43-76-12.5-82 12.5-82 43-76 72.5-34 72.5 34 43 76 12.5 82zm160 0q0-120-69-204t-187-84q-41 0-195 21-71 11-157 11t-157-11q-152-21-195-21-118 0-187 84t-69 204q0 88 32 153.5t81 103 122 60 140 29.5 149 7h168q82 0 149-7t140-29.5 122-60 81-103 32-153.5zm224-176q0 207-61 331-38 77-105.5 133t-141 86-170 47.5-171.5 22-167 4.5q-78 0-142-3t-147.5-12.5-152.5-30-137-51.5-121-81-86-115q-62-123-62-331 0-237 136-396-27-82-27-170 0-116 51-218 108 0 190 39.5t189 123.5q147-35 309-35 148 0 280 32 105-82 187-121t189-39q51 102 51 218 0 87-27 168 136 160 136 398z"
-  }))), React.createElement("a", {
-    "aria-label": "Twitter",
-    className: "shell-color-blue shell-color-blue-dark-on-hover shell-inline-block shell-w36",
-    href: "https://twitter.com/maplibre/"
-  }, React.createElement("svg", {
-    viewBox: "0 0 50 50",
-    className: "shell-icon shell-icon--s shell-inline"
-  }, React.createElement("g", {
-    id: "77744030-a5d8-4d71-88ad-2c70d4dcad7b",
-    "data-name": "svg"
-  }, React.createElement("path", {
-    d: "M15.72,45.31c18.87,0,29.19-15.63,29.19-29.19,0-.44,0-.89,0-1.33A20.87,20.87,0,0,0,50,9.49a20.48,20.48,0,0,1-5.89,1.61,10.29,10.29,0,0,0,4.51-5.67A20.56,20.56,0,0,1,42.1,7.92a10.27,10.27,0,0,0-17.48,9.36A29.12,29.12,0,0,1,3.48,6.56,10.27,10.27,0,0,0,6.66,20.25,10.18,10.18,0,0,1,2,19v.13a10.26,10.26,0,0,0,8.23,10.06,10.24,10.24,0,0,1-4.63.18,10.27,10.27,0,0,0,9.58,7.12,20.58,20.58,0,0,1-12.74,4.4A20.88,20.88,0,0,1,0,40.71a29,29,0,0,0,15.72,4.6"
-  })))));
+  }))));
 }
 
 FooterSocialMediaStrip.propTypes = {
@@ -558,9 +546,9 @@ var removeMarkdown = function (md, options) {
 
 function MetaTagger(props) {
   var title = titleGenerator_2(props.title, props.subsite, props.site).join(' | ');
-  var suffixedTitle = "".concat(title, " | MapLibre");
+  var suffixedTitle = "".concat(title, " | Goong");
   var preppedDescription = props.description.replace(/\s+/g, ' ');
-  var prodUrl = 'https://maplibre.org';
+  var prodUrl = 'https://docs.goong.io';
   if (props.pathname[0] !== '/') prodUrl += '/';
   prodUrl += props.pathname;
   var metaItems = [{
@@ -700,7 +688,7 @@ MetaTagger.propTypes = {
 MetaTagger.defaultProps = {
   imageUrl: DEFAULT_SOCIAL_IMAGE_URL,
   imageUrlThumbnail: DEFAULT_SOCIAL_IMAGE_THUMBNAIL_URL,
-  imageAlt: 'MapLibre',
+  imageAlt: 'Goong',
   largeImage: true
 };
 

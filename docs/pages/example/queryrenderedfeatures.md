@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './queryrenderedfeatures.html';"
 ---
 
-Use [`queryRenderedFeatures`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#queryrenderedfeatures) to show properties of hovered-over map elements.
+Use [`queryRenderedFeatures`](/goong-js-docs/api/map/#map#queryrenderedfeatures) to show properties of hovered-over map elements.
 
 {{ <Example html={html} {...this.props} /> }}

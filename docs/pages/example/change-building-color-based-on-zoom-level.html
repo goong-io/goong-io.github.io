@@ -17,15 +17,48 @@
 <div id="map"></div>
 <button id="zoom">Zoom to buildings</button>
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/basic/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-        center: [-90.73414, 14.55524],
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
+        center: [105.83991, 21.028],
         zoom: 13
     });
 
     map.on('load', function () {
+        map.addLayer({
+            'id': 'building',
+            'source': 'composite',
+            'source-layer': 'VN_Building',
+            'filter': ['==', 'extrude', 'true'],
+            'type': 'fill-extrusion',
+            'minzoom': 15,
+            'paint': {
+                'fill-extrusion-color': '#aaa',
+
+                // use an 'interpolate' expression to add a smooth transition effect to the
+                // buildings as the user zooms in
+                'fill-extrusion-height': [
+                    'interpolate',
+                    ['linear'],
+                    ['zoom'],
+                    15,
+                    0,
+                    15.05,
+                    ['get', 'height']
+                ],
+                'fill-extrusion-base': [
+                    'interpolate',
+                    ['linear'],
+                    ['zoom'],
+                    15,
+                    0,
+                    15.05,
+                    ['get', 'min_height']
+                ],
+                'fill-extrusion-opacity': 0.6
+            }
+        });
         map.setPaintProperty('building', 'fill-color', [
             'interpolate',
             ['exponential', 0.5],

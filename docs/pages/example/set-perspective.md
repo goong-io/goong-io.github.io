@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './set-perspective.html';"
 ---
 
-Map options extend [`CameraOptions`](https://maplibre.org/maplibre-gl-js-docs/api/properties/#cameraoptions), so you can set more than the center and zoom. This example sets the pitch and bearing.
+Map options extend [`CameraOptions`](/goong-js-docs/api/properties/#cameraoptions), so you can set more than the center and zoom. This example sets the pitch and bearing.
 
 {{ <Example html={html} {...this.props} /> }}

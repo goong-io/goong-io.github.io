@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './visualize-population-density.html';"
 ---
 
-Use a [variable binding expression](https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#variable-binding) to calculate and display population density.
+Use a [variable binding expression](/goong-js-docs/style-spec/expressions/#variable-binding) to calculate and display population density.
 
 {{ <Example html={html} {...this.props} /> }}

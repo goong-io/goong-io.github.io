@@ -99,16 +99,16 @@
 
 <script>
     var center = [-77.01866, 38.888];
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
         zoom: 12.5,
         center: center,
         pitch: 60,
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL'
+        style: 'https://tiles.goong.io/assets/goong_map_web.json'
     });
 
-    new maplibregl.Marker().setLngLat(center).addTo(map);
+    new goongjs.Marker().setLngLat(center).addTo(map);
 
     function toggleSidebar(id) {
         var elem = document.getElementById(id);

@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './hover-styles.html';"
 ---
 
-Use events and [feature states](https://maplibre.org/maplibre-gl-js-docs/api/#map#setfeaturestate) to create a per feature hover effect.
+Use events and [feature states](/goong-js-docs/api/#map#setfeaturestate) to create a per feature hover effect.
 
 {{ <Example html={html} {...this.props} /> }}

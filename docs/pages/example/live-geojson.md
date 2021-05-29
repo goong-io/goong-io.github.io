@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './live-geojson.html';"
 ---
 
-Use realtime GeoJSON data streams to move a [`symbol`](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#symbol) on your map.
+Use realtime GeoJSON data streams to move a [`symbol`](/goong-js-docs/style-spec/layers/#symbol) on your map.
 
 {{ <Example html={html} {...this.props} /> }}

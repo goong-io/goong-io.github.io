@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './filter-markers.html';"
 ---
 
-Filter a set of [symbols](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#symbol) based on a property value in the data.
+Filter a set of [symbols](/goong-js-docs/style-spec/layers/#symbol) based on a property value in the data.
 
 {{ <Example html={html} {...this.props} /> }}

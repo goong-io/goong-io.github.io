@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './geojson-layer-in-stack.html';"
 ---
 
-Use the second argument of [`addLayer`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#addlayer), you can be more precise when adding a new layer below labels.
+Use the second argument of [`addLayer`](/goong-js-docs/api/map/#map#addlayer), you can be more precise when adding a new layer below labels.
 
 {{ <Example html={html} {...this.props} /> }}

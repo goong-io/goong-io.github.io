@@ -1,9 +1,9 @@
 <div id="map"></div>
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
         center: [-122.48383155304096, 37.82882682974591],
         zoom: 16
     });
@@ -77,7 +77,7 @@
             'source': 'lines',
             'paint': {
                 'line-width': 3,
-                // Use a get expression (https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#get)
+                // Use a get expression (https://docs.goong.io/goong-js-docs/style-spec/expressions/#get)
                 // to set the line-color to a feature property value.
                 'line-color': ['get', 'color']
             }

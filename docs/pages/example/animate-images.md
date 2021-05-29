@@ -11,12 +11,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './animate-images.html';"
 ---
 
-Use a series of [image sources](https://maplibre.org/maplibre-gl-js-docs/style-spec/sources/#image) to create an animation.
+Use a series of [image sources](/goong-js-docs/style-spec/sources/#image) to create an animation.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -1,11 +1,12 @@
 <div id="map"></div>
 
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-        zoom: 1
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
+        center: [105.84910869598389, 21.029451894670853],
+        zoom: 15
     });
 
     map.on('load', function () {
@@ -19,11 +20,12 @@
                     'type': 'Polygon',
                     'coordinates': [
                         [
-                            [-30, -25],
-                            [-30, 35],
-                            [30, 35],
-                            [30, -25],
-                            [-30, -25]
+                            [105.84654450416565, 21.030773770287805],
+                            [105.84629774093628, 21.028710838059634],
+                            [105.84876537322998, 21.02768937560973],
+                            [105.8502995967865, 21.029391809136953],
+                            [105.84941983222961, 21.030823841103423],
+                            [105.84654450416565, 21.030773770287805]
                         ]
                     ]
                 }

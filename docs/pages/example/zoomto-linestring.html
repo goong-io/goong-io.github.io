@@ -51,10 +51,10 @@
         ]
     };
 
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
         center: [-77.0214, 38.897],
         zoom: 12
     });
@@ -91,7 +91,7 @@
                 // requires wrapping all the coordinates with the extend method.
                 var bounds = coordinates.reduce(function (bounds, coord) {
                     return bounds.extend(coord);
-                }, new maplibregl.LngLatBounds(coordinates[0], coordinates[0]));
+                }, new goongjs.LngLatBounds(coordinates[0], coordinates[0]));
 
                 map.fitBounds(bounds, {
                     padding: 20

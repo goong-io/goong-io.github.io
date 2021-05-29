@@ -2,22 +2,22 @@
 <script src="https://unpkg.com/three@0.106.2/examples/js/loaders/GLTFLoader.js"></script>
 <div id="map"></div>
 <script>
-    var map = (window.map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = (window.map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/basic/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
         zoom: 18,
-        center: [148.9819, -35.3981],
+        center: [105.83991, 21.028],
         pitch: 60,
         antialias: true // create the gl context with MSAA antialiasing, so custom layers are antialiased
     }));
 
     // parameters to ensure the model is georeferenced correctly on the map
-    var modelOrigin = [148.9819, -35.39847];
+    var modelOrigin = [105.83991, 21.028];
     var modelAltitude = 0;
     var modelRotate = [Math.PI / 2, 0, 0];
 
-    var modelAsMercatorCoordinate = maplibregl.MercatorCoordinate.fromLngLat(
+    var modelAsMercatorCoordinate = goongjs.MercatorCoordinate.fromLngLat(
         modelOrigin,
         modelAltitude
     );
@@ -59,7 +59,7 @@
             // use the three.js GLTF loader to add the 3D model to the three.js scene
             var loader = new THREE.GLTFLoader();
             loader.load(
-                'https://maplibre.org/maplibre-gl-js-docs/assets/34M_17/34M_17.gltf',
+                'https://docs.mapbox.com/mapbox-gl-js/assets/34M_17/34M_17.gltf',
                 function (gltf) {
                     this.scene.add(gltf.scene);
                 }.bind(this)
@@ -115,6 +115,6 @@
     };
 
     map.on('style.load', function () {
-        map.addLayer(customLayer, 'road_area_bridge');
+        map.addLayer(customLayer, 'road-primary');
     });
 </script>

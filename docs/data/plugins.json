@@ -1,5 +1,13 @@
 {
   "User Interface Plugins": {
+    "goong-geocoder-js": {
+      "website": "https://github.com/goong-io/goong-geocoder-js",
+      "description": "Add a geocoder control to Goong GL JS."
+    },
+    "goong-sdk": {
+      "website": "https://github.com/goong-io/goong-sdk",
+      "description": "A powerful JS SDK working with Goong REST APIs."
+    },
     "mapbox-gl-accessibility": {
       "website": "https://github.com/mapbox/mapbox-gl-accessibility/",
       "description": "Integrates with ARIA-compatible screen readers for users with visual impairments."
@@ -28,10 +36,6 @@
     "mapbox-gl-export": {
       "website": "https://github.com/watergis/mapbox-gl-export",
       "description": "Adds a control that exports the map as a PDF or PNG."
-    },
-    "mapbox-gl-geocoder": {
-      "website": "https://github.com/mapbox/mapbox-gl-geocoder",
-      "description": "Adds a geocoder control to Mapbox GL JS."
     },
     "mapbox-gl-infobox": {
       "website": "https://github.com/el/infobox-control",

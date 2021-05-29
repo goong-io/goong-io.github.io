@@ -8,7 +8,7 @@ navOrder: 3
 layout: page # use the layout page
 hideFeedback: true # hide feedback from page
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Plugins from '../../components/plugins-page';"
 ---

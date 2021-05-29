@@ -1,9 +1,9 @@
 <div id="map"></div>
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
         center: [-96, 37.8],
         zoom: 3
     });

@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './add-a-marker.html';"
 ---
 
-Add a default [`Marker`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#marker) to the map.
+Add a default [`Marker`](/goong-js-docs/api/markers/#marker) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

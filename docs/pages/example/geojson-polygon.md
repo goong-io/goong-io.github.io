@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './geojson-polygon.html';"
 ---
 
-Style a polygon with the [fill layer](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#fill) type.
+Style a polygon with the [fill layer](/goong-js-docs/style-spec/layers/#fill) type.
 
 {{ <Example html={html} {...this.props} /> }}

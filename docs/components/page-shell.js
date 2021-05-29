@@ -24,7 +24,7 @@ import AppropriateImage from './appropriate-image';
 import Browser from '@mapbox/dr-ui/browser';
 import redirectApiRef from '../util/api-ref-redirect';
 import classnames from 'classnames';
-import { version } from '../../maplibre-gl-js/package.json';
+import { version } from '../../goong-js/package.json';
 
 import { devDependencies } from '../../package.json';
 import slug from 'slugg';
@@ -114,8 +114,8 @@ class PageShell extends React.Component {
                 >
                     <PageLayout
                         domain={{
-                            title: 'MapLibre',
-                            path: 'https://maplibre.org/'
+                            title: 'Goong',
+                            path: 'https://docs.goong.io/'
                         }}
                         hideSearch={true}
                         location={location}

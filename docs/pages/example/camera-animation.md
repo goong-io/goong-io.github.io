@@ -11,12 +11,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './camera-animation.html';"
 ---
 
-Customize camera animations using [`AnimationOptions`](https://maplibre.org/maplibre-gl-js-docs/api/properties/#animationoptions).
+Customize camera animations using [`AnimationOptions`](/goong-js-docs/api/properties/#animationoptions).
 
 {{ <Example html={html} {...this.props} /> }}

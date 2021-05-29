@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './locate-user.html';"
 ---
 
-Geolocate the user and then track their current location on the map using the [`GeolocateControl`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#geolocatecontrol).
+Geolocate the user and then track their current location on the map using the [`GeolocateControl`](/goong-js-docs/api/markers/#geolocatecontrol).
 
 {{ <Example html={html} {...this.props} /> }}

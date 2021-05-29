@@ -12,5 +12,5 @@ showFilters:
 - topics
 - search
 products:
-- Mapbox GL JS
+- Goong GL JS
 ---

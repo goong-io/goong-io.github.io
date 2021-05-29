@@ -41,7 +41,7 @@ body { margin:0; padding:0; }
 </head>
 <body>
 <script>
-mapboxgl.accessToken = '${token}';
+goongjs.accessToken = '${token}';
 </script>
 ${snippet}
 </body>

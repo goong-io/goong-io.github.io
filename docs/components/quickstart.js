@@ -13,8 +13,8 @@ class Quickstart extends React.Component {
 
     mapOptions = `{
     container: 'map',
-    style: 'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL', // stylesheet location
-    center: [-74.5, 40], // starting position [lng, lat]
+    style: 'https://tiles.goong.io/assets/goong_map_web.json', // stylesheet location
+    center: [105.83991, 21.02800], // starting position [lng, lat]
     zoom: 9 // starting zoom
 }`;
 
@@ -22,7 +22,8 @@ class Quickstart extends React.Component {
         const cdnMapHtml = `
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
-var map = new maplibregl.Map(${this.mapOptions});
+goongjs.accessToken = 'your access token here';
+var map = new goongjs.Map(${this.mapOptions});
 </script>`;
         return (
             <div id="quickstart-cdn">
@@ -46,14 +47,14 @@ var map = new maplibregl.Map(${this.mapOptions});
 
     renderBundler() {
         const bundlerMapJs = `
-import maplibregl from 'maplibre-gl'; // or "const maplibregl = require('maplibre-gl');"
-
-const map = new maplibregl.Map(${this.mapOptions});`;
+import goongjs from 'goong-js'; // or "const goongjs = require('goong-js');"
+goongjs.accessToken = 'your access token here';
+const map = new goongjs.Map(${this.mapOptions});`;
         return (
             <div id="quickstart-bundler">
                 <p>Install the npm package.</p>
                 <Copyable lang="markup">{`
-npm install --save maplibre-gl
+npm install --save @goongmaps/goong-js
 `}</Copyable>
 
                 <p>

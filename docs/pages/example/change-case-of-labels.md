@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './change-case-of-labels.html';"
 ---
 
-Use the [`upcase`](https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#upcase) and [`downcase`](https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#downcase) expressions to change the case of labels.
+Use the [`upcase`](/goong-js-docs/style-spec/expressions/#upcase) and [`downcase`](/goong-js-docs/style-spec/expressions/#downcase) expressions to change the case of labels.
 
 {{ <Example html={html} {...this.props} /> }}

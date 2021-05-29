@@ -1,11 +1,11 @@
 <div id="map"></div>
 
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-        center: [-87.6298, 41.8781],
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
+        center: [105.83991, 21.028],
         zoom: 17,
         bearing: -12,
         pitch: 60,

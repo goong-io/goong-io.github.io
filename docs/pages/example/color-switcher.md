@@ -11,12 +11,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './color-switcher.html';"
 ---
 
-Use [`setPaintProperty`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#setpaintproperty) to change a layer's fill color.
+Use [`setPaintProperty`](/goong-js-docs/api/map/#map#setpaintproperty) to change a layer's fill color.
 
 {{ <Example html={html} {...this.props} /> }}

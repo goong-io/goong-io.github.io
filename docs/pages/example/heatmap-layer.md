@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './heatmap-layer.html';"
 ---
 
-Visualize earthquake frequency by location using a [heatmap layer](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#heatmap).
+Visualize earthquake frequency by location using a [heatmap layer](/goong-js-docs/style-spec/layers/#heatmap).
 
 {{ <Example html={html} {...this.props} /> }}

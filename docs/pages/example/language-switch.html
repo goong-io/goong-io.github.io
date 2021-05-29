@@ -27,10 +27,10 @@
     <li id="button-es" class="button">Spanish</li>
 </ul>
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/basic/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
         center: [16.05, 48],
         zoom: 2.9
     });

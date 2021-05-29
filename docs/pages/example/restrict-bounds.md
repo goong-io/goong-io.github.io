@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './restrict-bounds.html';"
 ---
 
-Prevent a map from being panned to a different place by setting [`maxBounds`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#setmaxbounds).
+Prevent a map from being panned to a different place by setting [`maxBounds`](/goong-js-docs/api/map/#map#setmaxbounds).
 
 {{ <Example html={html} {...this.props} /> }}

@@ -25,11 +25,11 @@ const addPages = [
     // }
 ];
 
-const siteBasePath = '/maplibre-gl-js-docs';
+const siteBasePath = '/goong-js-docs';
 module.exports = () => {
     const config = {
         siteBasePath: siteBasePath,
-        siteOrigin: 'https://maplibre.github.io',
+        siteOrigin: 'https://docs.goong.io',
         pagesDirectory: `${__dirname}/docs/pages`,
         outputDirectory: path.join(__dirname, '_site'),
         browserslist: mapboxAssembly.browsersList,

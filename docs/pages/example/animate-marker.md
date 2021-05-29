@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './animate-marker.html';"
 ---
 
-Animate the position of a [`Marker`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#marker) by updating its location on each frame.
+Animate the position of a [`Marker`](/goong-js-docs/api/markers/#marker) by updating its location on each frame.
 
 {{ <Example html={html} {...this.props} /> }}

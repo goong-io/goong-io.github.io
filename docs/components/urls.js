@@ -1,11 +1,11 @@
-import { version } from '../../maplibre-gl-js/package.json';
+import { version } from '../../goong-js/package.json';
 import { prefixUrl } from '@mapbox/batfish/modules/prefix-url';
 
 function url(ext, options) {
     if (options && options.local && process.env.DEPLOY_ENV === 'local') {
-        return prefixUrl(`/dist/maplibre-gl.${ext}`);
+        return prefixUrl(`/dist/goong-js.${ext}`);
     } else {
-        return `https://unpkg.com/maplibre-gl@${version}/dist/maplibre-gl.${ext}`;
+        return `https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@${version}/dist/goong-js.${ext}`;
     }
 }
 

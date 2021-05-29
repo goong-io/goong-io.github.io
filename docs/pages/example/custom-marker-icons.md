@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './custom-marker-icons.html';"
 ---
 
-Use [`Marker`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#marker) to add custom icons to your map.
+Use [`Marker`](/goong-js-docs/api/markers/#marker) to add custom icons to your map.
 
 {{ <Example html={html} {...this.props} /> }}

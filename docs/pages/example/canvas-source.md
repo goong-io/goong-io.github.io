@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './canvas-source.html';"
 ---
 
-Add a [`CanvasSource`](https://maplibre.org/maplibre-gl-js-docs/api/sources/#canvassource) to the map.
+Add a [`CanvasSource`](/goong-js-docs/api/sources/#canvassource) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

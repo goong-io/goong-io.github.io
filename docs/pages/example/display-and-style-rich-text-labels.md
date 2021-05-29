@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './display-and-style-rich-text-labels.html';"
 ---
 
-Use the [`format` expression](https://maplibre.org/maplibre-gl-js-docs/style-spec/expressions/#types-format) to display country labels in both English and in the local language.
+Use the [`format` expression](/goong-js-docs/style-spec/expressions/#types-format) to display country labels in both English and in the local language.
 
 {{ <Example html={html} {...this.props} /> }}

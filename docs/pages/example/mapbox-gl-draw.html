@@ -31,10 +31,10 @@
 </div>
 
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map', // container id
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL', //hosted style id
+        style: 'https://tiles.goong.io/assets/goong_map_web.json', //hosted style id
         center: [-91.874, 42.76], // starting position
         zoom: 12 // starting zoom
     });

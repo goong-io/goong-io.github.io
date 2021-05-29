@@ -1,10 +1,10 @@
 <div id="map"></div>
 
 <script>
-    var map = new maplibregl.Map({
+    goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+    var map = new goongjs.Map({
         container: 'map',
-        style:
-            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
         center: [-103.59179687498357, 40.66995747013945],
         zoom: 3
     });
@@ -30,7 +30,7 @@
             source: 'earthquakes',
             filter: ['has', 'point_count'],
             paint: {
-                // Use step expressions (https://maplibre.org/maplibre-gl-js-docs/style-spec/#expressions-step)
+                // Use step expressions (https://docs.goong.io/goong-js-docs/style-spec/#expressions-step)
                 // with three steps to implement three types of circles:
                 //   * Blue, 20px circles when point count is less than 100
                 //   * Yellow, 30px circles when point count is between 100 and 750
@@ -122,7 +122,7 @@
                 coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
             }
 
-            new maplibregl.Popup()
+            new goongjs.Popup()
                 .setLngLat(coordinates)
                 .setHTML(
                     'magnitude: ' + mag + '<br>Was there a tsunami?: ' + tsunami

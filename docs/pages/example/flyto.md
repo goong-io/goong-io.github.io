@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './flyto.html';"
 ---
 
-Use [`flyTo`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#flyto) to smoothly interpolate between locations.
+Use [`flyTo`](/goong-js-docs/api/map/#map#flyto) to smoothly interpolate between locations.
 
 {{ <Example html={html} {...this.props} /> }}

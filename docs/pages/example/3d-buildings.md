@@ -10,13 +10,13 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 - Mapbox Streets tileset
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './3d-buildings.html';"
 ---
 
-Use [extrusions](https://maplibre.org/maplibre-gl-js-docs/style-spec/layers/#fill-extrusion) to display buildings' height in 3D.
+Use [extrusions](/goong-js-docs/style-spec/layers/#fill-extrusion) to display buildings' height in 3D.
 
 {{ <Example html={html} {...this.props} /> }}

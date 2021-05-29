@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './set-popup.html';"
 ---
 
-Attach a [`Popup`](https://maplibre.org/maplibre-gl-js-docs/api/markers/#popup) to a [Marker](https://maplibre.org/maplibre-gl-js-docs/api/markers/#marker) and display it on click.
+Attach a [`Popup`](/goong-js-docs/api/markers/#popup) to a [Marker](/goong-js-docs/api/markers/#marker) and display it on click.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Mapbox GL JS
+- Goong GL JS
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './fitbounds.html';"
 ---
 
-Use [`fitBounds`](https://maplibre.org/maplibre-gl-js-docs/api/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
+Use [`fitBounds`](/goong-js-docs/api/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
 
 {{ <Example html={html} {...this.props} /> }}

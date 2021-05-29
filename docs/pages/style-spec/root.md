@@ -13,7 +13,7 @@ prependJs:
     - "import ref from '@maplibre/maplibre-gl-style-spec/reference/latest';"
 ---
 
-Root level properties of a MapLibre style specify the map's layers, tile sources and other resources, and default values for the initial camera position when not specified elsewhere.
+Root level properties of a Goong style specify the map's layers, tile sources and other resources, and default values for the initial camera position when not specified elsewhere.
 
 ```json
 {
