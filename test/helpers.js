@@ -14,10 +14,13 @@ async function latestStableTag() {
         shell: true
     });
 
-    // Get the maplibre-gl package's servsions from npm, sorted by semver.
-    const { stdout } = await execa(`npm info maplibre-gl versions --json`, {
-        shell: true
-    }).catch((err) => {
+    // Get the goong-js package's servsions from npm, sorted by semver.
+    const { stdout } = await execa(
+        `npm info @goongmaps/goong-js versions --json`,
+        {
+            shell: true
+        }
+    ).catch((err) => {
         console.error(`Failed to list tags. ${JSON.stringify(err, null, 2)}`);
     });
     const suffixRe = new RegExp(`(-([beta]+|[rc]+|[alpha]+)(\\.?[0-9]+?)?)`);

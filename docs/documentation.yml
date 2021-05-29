@@ -72,7 +72,7 @@ toc:
   - name: Sources
     page: 'sources'
     description: |
-      The source types Mapbox GL JS can handle in addition to the ones described in the [Mapbox Style Specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/).
+      The source types Goong GL JS can handle in addition to the ones described in the [Goong Style Specification](https://docs.goong.io/goong-js-docs/style-spec/).
     children:
       - GeoJSONSource
       - VideoSource
@@ -83,9 +83,9 @@ toc:
   - name: Events
     page: 'events'
     description: |
-      The different types of events that Mapbox GL JS can raise.
+      The different types of events that Goong GL JS can raise.
 
-      You can also find additional event documentation for: [`Map`](/mapbox-gl-js/api/map/#map-events), [`Marker`](/mapbox-gl-js/api/markers/#marker-events), [`Popup`](/mapbox-gl-js/api/markers/#popup-events), and [`GeolocationControl`](/mapbox-gl-js/api/markers/#geolocatecontrol-events).
+      You can also find additional event documentation for: [`Map`](/goong-js-docs/api/map/#map-events), [`Marker`](/goong-js-docs/api/markers/#marker-events), [`Popup`](/goong-js-docs/api/markers/#popup-events), and [`GeolocationControl`](/goong-js-docs/api/markers/#geolocatecontrol-events).
     children:
       - Evented
       - MapMouseEvent

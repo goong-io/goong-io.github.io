@@ -16,6 +16,6 @@ prependJs:
 - "import html from './check-for-support.html';"
 ---
 
-Use [`supported`](/goong-js-docs/api/properties/#supported) to check for Goong GL browser support, and show an alert if the browser does not support MapLibre GL. Find more information about browser support for Mapbox tools in the [Browser support](https://docs.mapbox.com/help/troubleshooting/mapbox-browser-support/) troubleshooting guide.
+Use [`supported`](/goong-js-docs/api/properties/#supported) to check for Goong GL browser support, and show an alert if the browser does not support Goong GL. Find more information about browser support for Mapbox tools in the [Browser support](https://docs.mapbox.com/help/troubleshooting/mapbox-browser-support/) troubleshooting guide.
 
 {{ <Example html={html} {...this.props} /> }}

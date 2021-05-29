@@ -1,7 +1,7 @@
 ---
 title: Root
 id: root
-description: Root level properties of a MapLibre style specify the map's layers, tile sources and other resources, and default values for the initial camera position when not specified elsewhere.
+description: Root level properties of a Goong style specify the map's layers, tile sources and other resources, and default values for the initial camera position when not specified elsewhere.
 contentType: specification
 order: 2
 layout: page
@@ -28,9 +28,9 @@ Root level properties of a Goong style specify the map's layers, tile sources an
 
 <!--
 START GENERATED CONTENT:
-Content in this section is generated directly using the MapLibre Style
+Content in this section is generated directly using the Goong Style
 Specification. To update any content displayed in this section, make edits to:
-https://github.com/maplibre/maplibre-gl-js/blob/main/src/style-spec/reference/v8.json.
+https://github.com/goong-io/goong-js/blob/master/src/style-spec/reference/v8.json.
 -->
 {{<Items headingLevel='2' entry={ref.$root} />}}
 <!-- END GENERATED CONTENT -->

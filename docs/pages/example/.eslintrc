@@ -13,6 +13,7 @@
     "plugins": ["html"],
     "globals": {
       "goong-js": true,
+      "goongjs": true,
       "mapboxgl": true,
       "MapboxGeocoder": true,
       "MapboxDirections": true,

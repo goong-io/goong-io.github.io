@@ -43,9 +43,9 @@ A valid sprite source must supply two types of files:
 
 Apart from the required `width`, `height`, `x`, and `y` properties, the following optional properties are supported:
 <!-- copyeditor ignore retext-passive -->
-- `content`: An array of four numbers, with the first two specifying the left, top corner, and the last two specifying the right, bottom corner. If present, and if the icon uses [`icon-text-fit`](/maplibre-gl-js-docs/style-spec/layers/#layout-symbol-icon-text-fit), the symbol's text will be fit inside the content box.
+- `content`: An array of four numbers, with the first two specifying the left, top corner, and the last two specifying the right, bottom corner. If present, and if the icon uses [`icon-text-fit`](https://docs.goong.io/goong-js-docs/style-spec/layers/#layout-symbol-icon-text-fit), the symbol's text will be fit inside the content box.
 - `stretchX`: An array of two-element arrays, consisting of two numbers that represent the _from_ position and the _to_ position of areas that can be stretched.
 - `stretchY`: Same as `stretchX`, but for the vertical dimension.
 
-MapLibre SDKs will use the value of the `sprite` property in the style to generate the URLs for loading both files. First, for both file types, it will append `@2x` to the URL on high-DPI devices. Second, it will append a file extension: `.json` for the index file, and `.png` for the image file. For example, if you specified `"sprite": "https://example.com/sprite"`, renderers would load `https://example.com/sprite.json` and `https://example.com/sprite.png`, or `https://example.com/sprite@2x.json` and `https://example.com/sprite@2x.png`.
+Goong SDKs will use the value of the `sprite` property in the style to generate the URLs for loading both files. First, for both file types, it will append `@2x` to the URL on high-DPI devices. Second, it will append a file extension: `.json` for the index file, and `.png` for the image file. For example, if you specified `"sprite": "https://example.com/sprite"`, renderers would load `https://example.com/sprite.json` and `https://example.com/sprite.png`, or `https://example.com/sprite@2x.json` and `https://example.com/sprite@2x.png`.
 
