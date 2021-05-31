@@ -47,15 +47,15 @@ function makeSubNav(entry, section, level) {
 }
 
 export const styleSpecNavigation = [
-    { title: 'Introduction', path: '/maplibre-gl-js-docs/style-spec/' },
+    { title: 'Introduction', path: '/goong-js-docs/style-spec/' },
     {
         title: 'Root',
-        path: '/maplibre-gl-js-docs/style-spec/root/',
+        path: '/goong-js-docs/style-spec/root/',
         subnav: makeSubNav(ref.$root, null, 2)
     },
     {
         title: 'Sources',
-        path: '/maplibre-gl-js-docs/style-spec/sources/',
+        path: '/goong-js-docs/style-spec/sources/',
         subnav: [
             {
                 text: 'vector',
@@ -97,7 +97,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Layers',
-        path: '/maplibre-gl-js-docs/style-spec/layers/',
+        path: '/goong-js-docs/style-spec/layers/',
         subnav: layerTypes.reduce((arr, type) => {
             arr.push({
                 text: type,
@@ -114,7 +114,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Expressions',
-        path: '/maplibre-gl-js-docs/style-spec/expressions/',
+        path: '/goong-js-docs/style-spec/expressions/',
         subnav: groupedExpressions.reduce((arr, group) => {
             arr.push({
                 text: group.name,
@@ -136,7 +136,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Types',
-        path: '/maplibre-gl-js-docs/style-spec/types/',
+        path: '/goong-js-docs/style-spec/types/',
         subnav: [
             {
                 text: 'Color',
@@ -177,25 +177,25 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Sprite',
-        path: '/maplibre-gl-js-docs/style-spec/sprite/'
+        path: '/goong-js-docs/style-spec/sprite/'
     },
     {
         title: 'Glyphs',
-        path: '/maplibre-gl-js-docs/style-spec/glyphs/'
+        path: '/goong-js-docs/style-spec/glyphs/'
     },
     {
         title: 'Transition',
-        path: '/maplibre-gl-js-docs/style-spec/transition/',
+        path: '/goong-js-docs/style-spec/transition/',
         subnav: makeSubNav(ref.transition, null, 2)
     },
     {
         title: 'Light',
-        path: '/maplibre-gl-js-docs/style-spec/light/',
+        path: '/goong-js-docs/style-spec/light/',
         subnav: makeSubNav(ref.light, null, 2)
     },
     {
         title: 'Other',
-        path: '/maplibre-gl-js-docs/style-spec/other/',
+        path: '/goong-js-docs/style-spec/other/',
         tag: 'legacy',
         subnav: [
             {

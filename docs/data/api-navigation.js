@@ -8,7 +8,7 @@ const apiFilterItems = require('../util/api-filter-items.js');
 module.exports = [
     {
         title: 'Introduction',
-        path: '/maplibre-gl-js-docs/api/',
+        path: '/goong-js-docs/api/',
         subnav: [
             {
                 title: 'Quickstart',
@@ -34,7 +34,7 @@ module.exports = [
     },
     {
         title: 'Map',
-        path: '/maplibre-gl-js-docs/api/map/',
+        path: '/goong-js-docs/api/map/',
         subnav: buildSubSubNav(
             apiFilterItems('Map class')[0].members.static[0], // Hack to resolve naming documentaiton.yml conflict b/w the "Map" class and the "Map" section
             'map',
@@ -43,33 +43,33 @@ module.exports = [
     },
     {
         title: 'Properties and options',
-        path: '/maplibre-gl-js-docs/api/properties/',
+        path: '/goong-js-docs/api/properties/',
         subnav: buldSubNav('Properties and options')
     },
     {
         title: 'Markers and controls',
-        path: '/maplibre-gl-js-docs/api/markers/',
+        path: '/goong-js-docs/api/markers/',
         subnav: buldSubNav('Markers and controls')
     },
 
     {
         title: 'Geography and geometry',
-        path: '/maplibre-gl-js-docs/api/geography/',
+        path: '/goong-js-docs/api/geography/',
         subnav: buldSubNav('Geography and geometry')
     },
     {
         title: 'User interaction handlers',
-        path: '/maplibre-gl-js-docs/api/handlers/',
+        path: '/goong-js-docs/api/handlers/',
         subnav: buldSubNav('User interaction handlers')
     },
     {
         title: 'Sources',
-        path: '/maplibre-gl-js-docs/api/sources/',
+        path: '/goong-js-docs/api/sources/',
         subnav: buldSubNav('Sources')
     },
     {
         title: 'Events',
-        path: '/maplibre-gl-js-docs/api/events/',
+        path: '/goong-js-docs/api/events/',
         subnav: buldSubNav('Events')
     }
 ];

@@ -18,16 +18,14 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/light/">
-                            light
-                        </a>
+                        <a href="/goong-js-docs/style-spec/light/">light</a>
                     </span>
                 );
             case 'transition':
                 return (
                     <span>
                         {' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/transition/">
+                        <a href="/goong-js-docs/style-spec/transition/">
                             transition
                         </a>
                     </span>
@@ -37,7 +35,7 @@ export default class Item extends React.Component {
                     <span>
                         {' '}
                         object with{' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/sources/">
+                        <a href="/goong-js-docs/style-spec/sources/">
                             source
                         </a>{' '}
                         values
@@ -47,7 +45,7 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/layers/">
+                        <a href="/goong-js-docs/style-spec/layers/">
                             layer
                             {plural && 's'}
                         </a>
@@ -57,7 +55,7 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/types/#array">
+                        <a href="/goong-js-docs/style-spec/types/#array">
                             array
                         </a>
                         {spec.value && (
@@ -78,7 +76,7 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/expressions/">
+                        <a href="/goong-js-docs/style-spec/expressions/">
                             expression
                             {plural && 's'}
                         </a>
@@ -88,7 +86,7 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/layers/#layout-property">
+                        <a href="/goong-js-docs/style-spec/layers/#layout-property">
                             layout
                         </a>
                     </span>
@@ -97,7 +95,7 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/maplibre-gl-js-docs/style-spec/layers/#paint-property">
+                        <a href="/goong-js-docs/style-spec/layers/#paint-property">
                             paint
                         </a>
                     </span>
@@ -107,7 +105,7 @@ export default class Item extends React.Component {
                     <span>
                         {' '}
                         <a
-                            href={`/maplibre-gl-js-docs/style-spec/types/#${spec.type}`}
+                            href={`/goong-js-docs/style-spec/types/#${spec.type}`}
                         >
                             {spec.type}
                             {plural && 's'}
@@ -167,7 +165,7 @@ export default class Item extends React.Component {
                 <Subtitle>
                     {this.props.kind === 'paint' && (
                         <React.Fragment>
-                            <a href="/maplibre-gl-js-docs/style-spec/layers/#paint-property">
+                            <a href="/goong-js-docs/style-spec/layers/#paint-property">
                                 Paint
                             </a>{' '}
                             property.{' '}
@@ -175,7 +173,7 @@ export default class Item extends React.Component {
                     )}
                     {this.props.kind === 'layout' && (
                         <React.Fragment>
-                            <a href="/maplibre-gl-js-docs/style-spec/layers/#layout-property">
+                            <a href="/goong-js-docs/style-spec/layers/#layout-property">
                                 Layout
                             </a>{' '}
                             property.{' '}
@@ -258,7 +256,7 @@ export default class Item extends React.Component {
                                     'feature-state'
                                 ) && (
                                     <em className="color-gray">
-                                        <a href="/maplibre-gl-js-docs/style-spec/expressions/#feature-state">
+                                        <a href="/goong-js-docs/style-spec/expressions/#feature-state">
                                             <Icon
                                                 name="combine"
                                                 inline={true}
@@ -273,7 +271,7 @@ export default class Item extends React.Component {
                                     ) &&
                                     ' and '}
                                 {this.props.expression.interpolated && (
-                                    <a href="/maplibre-gl-js-docs/style-spec/expressions/#interpolate">
+                                    <a href="/goong-js-docs/style-spec/expressions/#interpolate">
                                         <Icon
                                             name="smooth-ramp"
                                             inline={true}
