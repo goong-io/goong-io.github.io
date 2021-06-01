@@ -1,0 +1,43 @@
+<!-- Load the `goong-geocoder` plugin. -->
+<script src="https://cdn.jsdelivr.net/npm/@goongmaps/goong-geocoder/dist/goong-geocoder.min.js"></script>
+<link
+    href="https://cdn.jsdelivr.net/npm/@goongmaps/goong-geocoder/dist/goong-geocoder.css"
+    rel="stylesheet"
+    type="text/css"
+/>
+
+<!-- Promise polyfill script is required -->
+<!-- to use Goong Geocoder in IE 11. -->
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+<style>
+    #geocoder {
+        z-index: 1;
+        margin: 20px;
+    }
+    .goongjs-ctrl-geocoder {
+        min-width: 100%;
+    }
+</style>
+
+<div id="geocoder"></div>
+<pre id="result"></pre>
+<script>
+    var geocoder = new GoongGeocoder({
+        accessToken: 'PxNaGKg1NIWUJsFT3DMBkqaDspx5VvdW9CePVHq1'
+    });
+    geocoder.addTo('#geocoder');
+
+    // Get the geocoder results container.
+    var results = document.getElementById('result');
+
+    // Add geocoder result to container.
+    geocoder.on('result', function (e) {
+        results.innerText = JSON.stringify(e.result, null, 2);
+    });
+
+    // Clear results container when search is cleared.
+    geocoder.on('clear', function () {
+        results.innerText = '';
+    });
+</script>
