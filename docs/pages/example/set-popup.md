@@ -16,6 +16,6 @@ prependJs:
 - "import html from './set-popup.html';"
 ---
 
-Attach a [`Popup`](https://docs.goong.io/goong-js-docs/api/markers/#popup) to a [Marker](https://docs.goong.io/goong-js-docs/api/markers/#marker) and display it on click.
+Attach a [`Popup`](https://docs.goong.io/docs/api/markers/#popup) to a [Marker](https://docs.goong.io/docs/api/markers/#marker) and display it on click.
 
 {{ <Example html={html} {...this.props} /> }}

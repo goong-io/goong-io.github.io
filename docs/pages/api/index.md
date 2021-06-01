@@ -35,7 +35,7 @@ To get started with Goong JS or any of our other building blocks, [get your own 
 
 ## Migration Note
 
-We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/goong-js-docs/issues) on GitHub or submit a [pull request](https://github.com/goong-io/goong-js-docs/pulls) to propose directly your changes.
+We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/docs/issues) on GitHub or submit a [pull request](https://github.com/goong-io/docs/pulls) to propose directly your changes.
 
 
 ## Quickstart
@@ -63,13 +63,13 @@ We are now migrating this documentation from Mapbox to Goong. If you want to con
 
 This documentation is divided into several sections:
 
-* [**Map**](/goong-js-docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
-* [**Properties and options**](/goong-js-docs/api/properties/). This section describes Goong GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
-* [**Markers and controls**](/goong-js-docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
-* [**Geography and geometry**](/goong-js-docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
-* [**User interaction handlers**](/goong-js-docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
-* [**Sources**](/goong-js-docs/api/sources/). This section describes the source types Goong GL JS can handle besides the ones described in the [Goong Style Specification](/goong-js-docs/style-spec/).
-* [**Events**](/goong-js-docs/api/events/). This section describes the different types of events that Goong GL JS can raise.
+* [**Map**](/docs/api/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
+* [**Properties and options**](/docs/api/properties/). This section describes Goong GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
+* [**Markers and controls**](/docs/api/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
+* [**Geography and geometry**](/docs/api/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
+* [**User interaction handlers**](/docs/api/handlers/). The items in this section relate to the ways in which the map responds to user input.
+* [**Sources**](/docs/api/sources/). This section describes the source types Goong GL JS can handle besides the ones described in the [Goong Style Specification](/docs/style-spec/).
+* [**Events**](/docs/api/events/). This section describes the different types of events that Goong GL JS can raise.
 
 Each section describes classes or objects as well as their **properties**, **parameters**, **instance members**, and associated **events**. Many sections also include inline code examples and related resources.
 

@@ -16,6 +16,6 @@ prependJs:
 - "import html from './change-case-of-labels.html';"
 ---
 
-Use the [`upcase`](/goong-js-docs/style-spec/expressions/#upcase) and [`downcase`](/goong-js-docs/style-spec/expressions/#downcase) expressions to change the case of labels.
+Use the [`upcase`](/docs/style-spec/expressions/#upcase) and [`downcase`](/docs/style-spec/expressions/#downcase) expressions to change the case of labels.
 
 {{ <Example html={html} {...this.props} /> }}

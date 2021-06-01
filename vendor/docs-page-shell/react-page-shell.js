@@ -134,33 +134,33 @@ function PageHelmet() {
   }), React.createElement("link", {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "/goong-js-docs/assets/favicon/apple-touch-icon.png?v=rMBbQAR5BL"
+    href: "/docs/assets/favicon/apple-touch-icon.png?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "/goong-js-docs/assets/favicon/favicon-32x32.png?v=rMBbQAR5BL"
+    href: "/docs/assets/favicon/favicon-32x32.png?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "/goong-js-docs/assets/favicon/favicon-16x16.png?v=rMBbQAR5BL"
+    href: "/docs/assets/favicon/favicon-16x16.png?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "manifest",
-    href: "/goong-js-docs/assets/favicon/site.webmanifest?v=rMBbQAR5BL"
+    href: "/docs/assets/favicon/site.webmanifest?v=rMBbQAR5BL"
   }), React.createElement("link", {
     rel: "mask-icon",
-    href: "/goong-js-docs/assets/favicon/safari-pinned-tab.svg?v=rMBbQAR5BL",
+    href: "/docs/assets/favicon/safari-pinned-tab.svg?v=rMBbQAR5BL",
     color: "#4264fb"
   }), React.createElement("link", {
     rel: "shortcut icon",
-    href: "/goong-js-docs/assets/favicon/favicon.ico?v=rMBbQAR5BL"
+    href: "/docs/assets/favicon/favicon.ico?v=rMBbQAR5BL"
   }), React.createElement("meta", {
     name: "msapplication-TileColor",
     content: "#ffffff"
   }), React.createElement("meta", {
     name: "msapplication-config",
-    content: "/goong-js-docs/assets/favicon/browserconfig.xml?v=rMBbQAR5BL"
+    content: "/docs/assets/favicon/browserconfig.xml?v=rMBbQAR5BL"
   }), React.createElement("meta", {
     name: "theme-color",
     content: "#ffffff"
@@ -248,7 +248,7 @@ var navigationMenuData = {
 	nav: nav
 };
 
-var ORIGIN_DOCS_PRODUCTION = 'https://docs.goong.io/goong-js-docs';
+var ORIGIN_DOCS_PRODUCTION = 'https://docs.goong.io/docs';
 var DEFAULT_SOCIAL_IMAGE_URL = 'https://static-assets.mapbox.com/branding/social/social-1200x630.v1.png';
 var DEFAULT_SOCIAL_IMAGE_THUMBNAIL_URL = 'https://static-assets.mapbox.com/branding/social/social-120x120.v1.png';
 

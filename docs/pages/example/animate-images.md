@@ -17,6 +17,6 @@ prependJs:
 - "import html from './animate-images.html';"
 ---
 
-Use a series of [image sources](/goong-js-docs/style-spec/sources/#image) to create an animation.
+Use a series of [image sources](/docs/style-spec/sources/#image) to create an animation.
 
 {{ <Example html={html} {...this.props} /> }}

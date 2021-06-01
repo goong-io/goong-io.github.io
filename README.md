@@ -1,10 +1,10 @@
-# Goong GL JS Documentation
+# Goong Documentation
 
-The source code for /goong-js-docs/, the website that hosts [API documentation](#writing-api-documentation) and [examples](#writing-examples) for [Goong GL JS](https://github.com/goong-io/goong-js). A GitHub Actions Workflow is triggered on push to the ```main``` branch. This Action builds the static website and deploys it to GitHub Pages by pushing to the ```gh-pages``` branch.
+The source code for /docs/, the website that hosts [API documentation](#writing-api-documentation) and [examples](#writing-examples) for [Goong GL JS](https://github.com/goong-io/goong-js). A GitHub Actions Workflow is triggered on push to the ```main``` branch. This Action builds the static website and deploys it to GitHub Pages by pushing to the ```gh-pages``` branch.
 
 ## Migration Note
 
-We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/goong-js-docs/issues) on GitHub or submit a [pull request](https://github.com/goong-io/goong-js-docs/pulls) to propose directly your changes.
+We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/docs/issues) on GitHub or submit a [pull request](https://github.com/goong-io/docs/pulls) to propose directly your changes.
 
 ## Requirements
 

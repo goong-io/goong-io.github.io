@@ -16,6 +16,6 @@ prependJs:
 - "import html from './popup-on-click.html';"
 ---
 
-When a user clicks a symbol, show a [`Popup`](https://docs.goong.io/goong-js-docs/api/markers/#popup) containing more information.
+When a user clicks a symbol, show a [`Popup`](https://docs.goong.io/docs/api/markers/#popup) containing more information.
 
 {{ <Example html={html} {...this.props} /> }}

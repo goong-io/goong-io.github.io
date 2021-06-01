@@ -16,6 +16,6 @@ prependJs:
 - "import html from './animate-marker.html';"
 ---
 
-Animate the position of a [`Marker`](/goong-js-docs/api/markers/#marker) by updating its location on each frame.
+Animate the position of a [`Marker`](/docs/api/markers/#marker) by updating its location on each frame.
 
 {{ <Example html={html} {...this.props} /> }}

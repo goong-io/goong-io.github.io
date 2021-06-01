@@ -25,7 +25,7 @@ const addPages = [
     // }
 ];
 
-const siteBasePath = '/goong-js-docs';
+const siteBasePath = '/docs';
 module.exports = () => {
     const config = {
         siteBasePath: siteBasePath,

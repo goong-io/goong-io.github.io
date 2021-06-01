@@ -3,7 +3,7 @@ const GithubSlugger = require('github-slugger');
 
 function linker(namespace) {
     const page = findPage(namespace);
-    const path = page ? `/goong-js-docs/api/${page}/` : '';
+    const path = page ? `/docs/api/${page}/` : '';
     if (namespace.indexOf('.') > -1) {
         return `${path}#${namespace.toLowerCase()}`;
     } else {

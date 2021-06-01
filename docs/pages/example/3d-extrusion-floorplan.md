@@ -16,6 +16,6 @@ prependJs:
 - "import html from './3d-extrusion-floorplan.html';"
 ---
 
-Create a 3D indoor map with the [`fill-extrude-height`](/goong-js-docs/style-spec/layers/#paint-fill-extrusion-fill-extrusion-height) paint property.
+Create a 3D indoor map with the [`fill-extrude-height`](/docs/style-spec/layers/#paint-fill-extrusion-fill-extrusion-height) paint property.
 
 {{ <Example html={html} {...this.props} /> }}

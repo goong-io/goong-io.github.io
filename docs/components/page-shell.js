@@ -39,7 +39,7 @@ class PageShell extends React.Component {
     componentDidMount() {
         // redirect hashes on /style-spec/
         if (
-            this.props.location.pathname === '/goong-js-docs/style-spec/' &&
+            this.props.location.pathname === '/docs/style-spec/' &&
             this.props.location.hash
         ) {
             if (redirectStyleSpec(this.props.location))
@@ -48,7 +48,7 @@ class PageShell extends React.Component {
 
         // redirect hashes on /api/
         if (
-            this.props.location.pathname === '/goong-js-docs/api/' &&
+            this.props.location.pathname === '/docs/api/' &&
             this.props.location.hash
         ) {
             if (redirectApiRef(this.props.location))
@@ -59,19 +59,19 @@ class PageShell extends React.Component {
         const { location, frontMatter } = this.props;
 
         const subSection = findParentPath(navigation, location.pathname);
-        if (subSection === '/goong-js-docs/api/')
+        if (subSection === '/docs/api/')
             return (
                 frontMatter.headings ||
                 apiNavigation.filter((f) => f.path === location.pathname)[0]
                     .subnav
             );
-        else if (subSection === '/goong-js-docs/style-spec/') {
+        else if (subSection === '/docs/style-spec/') {
             return (
                 styleSpecNavigation.filter(
                     (f) => f.path === location.pathname
                 )[0].subnav || frontMatter.headings
             );
-        } else if (subSection === '/goong-js-docs/plugins/') {
+        } else if (subSection === '/docs/plugins/') {
             const headings = Object.keys(plugins).reduce((arr, key) => {
                 arr.push({
                     slug: slug(key),
@@ -91,7 +91,7 @@ class PageShell extends React.Component {
             navigation,
             this.props.location.pathname
         );
-        if (subSection === '/goong-js-docs/api/') return <Search />;
+        if (subSection === '/docs/api/') return <Search />;
         else return undefined;
     };
     render() {

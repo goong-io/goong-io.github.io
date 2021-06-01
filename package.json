@@ -1,10 +1,10 @@
 {
-  "name": "goong-js-docs",
-  "description": "Goong GL JS documentation website",
+  "name": "docs",
+  "description": "Goong documentation website",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/goong-io/goong-js-docs.git"
+    "url": "git://github.com/goong-io/docs.git"
   },
   "engines": {
     "node": ">=12"
@@ -86,7 +86,7 @@
     "test-content": "copyeditor docs/pages/",
     "start": "NODE_OPTIONS=\"--max_old_space_size=4096\" DEPLOY_ENV=local batfish start",
     "create-image": "node docs/bin/create-image",
-    "open-changed-examples": "git diff --name-only docs/pages/example/*.html | awk '{print \"http://localhost:8080/goong-js-docs\" substr($0,11,length($0)-15)}' | xargs open",
+    "open-changed-examples": "git diff --name-only docs/pages/example/*.html | awk '{print \"http://localhost:8080/docs\" substr($0,11,length($0)-15)}' | xargs open",
     "format": "prettier --write '**/*.{js,css,html,json}'"
   },
   "husky": {

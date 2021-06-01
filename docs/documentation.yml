@@ -72,7 +72,7 @@ toc:
   - name: Sources
     page: 'sources'
     description: |
-      The source types Goong GL JS can handle in addition to the ones described in the [Goong Style Specification](https://docs.goong.io/goong-js-docs/style-spec/).
+      The source types Goong GL JS can handle in addition to the ones described in the [Goong Style Specification](https://docs.goong.io/docs/style-spec/).
     children:
       - GeoJSONSource
       - VideoSource
@@ -85,7 +85,7 @@ toc:
     description: |
       The different types of events that Goong GL JS can raise.
 
-      You can also find additional event documentation for: [`Map`](/goong-js-docs/api/map/#map-events), [`Marker`](/goong-js-docs/api/markers/#marker-events), [`Popup`](https://docs.goong.io/goong-js-docs/api/markers/#popup-events), and [`GeolocationControl`](https://docs.goong.io/goong-js-docs/api/markers/#geolocatecontrol-events).
+      You can also find additional event documentation for: [`Map`](/docs/api/map/#map-events), [`Marker`](/docs/api/markers/#marker-events), [`Popup`](https://docs.goong.io/docs/api/markers/#popup-events), and [`GeolocationControl`](https://docs.goong.io/docs/api/markers/#geolocatecontrol-events).
     children:
       - Evented
       - MapMouseEvent

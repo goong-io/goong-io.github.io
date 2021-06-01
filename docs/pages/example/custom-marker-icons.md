@@ -16,6 +16,6 @@ prependJs:
 - "import html from './custom-marker-icons.html';"
 ---
 
-Use [`Marker`](/goong-js-docs/api/markers/#marker) to add custom icons to your map.
+Use [`Marker`](/docs/api/markers/#marker) to add custom icons to your map.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -17,6 +17,6 @@ prependJs:
 - "import html from './camera-animation.html';"
 ---
 
-Customize camera animations using [`AnimationOptions`](/goong-js-docs/api/properties/#animationoptions).
+Customize camera animations using [`AnimationOptions`](/docs/api/properties/#animationoptions).
 
 {{ <Example html={html} {...this.props} /> }}

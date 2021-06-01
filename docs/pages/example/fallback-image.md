@@ -16,6 +16,6 @@ prependJs:
 - "import html from './fallback-image.html';"
 ---
 
-Use a [`coalesce`](/goong-js-docs/style-spec/expressions/#coalesce) expression to display another image when a requested image is not available.
+Use a [`coalesce`](/docs/style-spec/expressions/#coalesce) expression to display another image when a requested image is not available.
 
 {{ <Example html={html} {...this.props} /> }}

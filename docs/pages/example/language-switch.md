@@ -16,6 +16,6 @@ prependJs:
 - "import html from './language-switch.html';"
 ---
 
-Use [`setLayoutProperty`](/goong-js-docs/api/map/#map#setlayoutproperty) to switch languages dynamically. For a more complete solution see the [mapbox-gl-language](https://github.com/mapbox/mapbox-gl-language/) plugin.
+Use [`setLayoutProperty`](/docs/api/map/#map#setlayoutproperty) to switch languages dynamically. For a more complete solution see the [mapbox-gl-language](https://github.com/mapbox/mapbox-gl-language/) plugin.
 
 {{ <Example html={html} {...this.props} /> }}

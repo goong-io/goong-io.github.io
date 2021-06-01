@@ -16,6 +16,6 @@ prependJs:
 - "import html from './drag-a-marker.html';"
 ---
 
-Drag the [`Marker`](/goong-js-docs/api/markers/#marker) to a new location on a map and populate its coordinates in a display.
+Drag the [`Marker`](/docs/api/markers/#marker) to a new location on a map and populate its coordinates in a display.
 
 {{ <Example html={html} {...this.props} /> }}
