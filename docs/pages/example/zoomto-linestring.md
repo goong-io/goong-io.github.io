@@ -16,6 +16,6 @@ prependJs:
 - "import html from './zoomto-linestring.html';"
 ---
 
-Get the bounds of a LineString by passing its first coordinates to [`LngLatBounds`](/docs/api/geography/#lnglatbounds) and chaining [`extend`](/docs/api/geography/#lnglatbounds#extend) to include the last coordinates.
+Get the bounds of a LineString by passing its first coordinates to [`LngLatBounds`](/docs/javascript/geography/#lnglatbounds) and chaining [`extend`](/docs/javascript/geography/#lnglatbounds#extend) to include the last coordinates.
 
 {{ <Example html={html} {...this.props} /> }}

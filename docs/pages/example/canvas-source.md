@@ -16,6 +16,6 @@ prependJs:
 - "import html from './canvas-source.html';"
 ---
 
-Add a [`CanvasSource`](/docs/api/sources/#canvassource) to the map.
+Add a [`CanvasSource`](/docs/javascript/sources/#canvassource) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

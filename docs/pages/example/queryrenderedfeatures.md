@@ -16,6 +16,6 @@ prependJs:
 - "import html from './queryrenderedfeatures.html';"
 ---
 
-Use [`queryRenderedFeatures`](/docs/api/map/#map#queryrenderedfeatures) to show properties of hovered-over map elements.
+Use [`queryRenderedFeatures`](/docs/javascript/map/#map#queryrenderedfeatures) to show properties of hovered-over map elements.
 
 {{ <Example html={html} {...this.props} /> }}

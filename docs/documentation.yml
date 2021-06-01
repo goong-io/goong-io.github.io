@@ -85,7 +85,7 @@ toc:
     description: |
       The different types of events that Goong GL JS can raise.
 
-      You can also find additional event documentation for: [`Map`](/docs/api/map/#map-events), [`Marker`](/docs/api/markers/#marker-events), [`Popup`](https://docs.goong.io/docs/api/markers/#popup-events), and [`GeolocationControl`](https://docs.goong.io/docs/api/markers/#geolocatecontrol-events).
+      You can also find additional event documentation for: [`Map`](/docs/javascript/map/#map-events), [`Marker`](/docs/javascript/markers/#marker-events), [`Popup`](https://docs.goong.io/docs/javascript/markers/#popup-events), and [`GeolocationControl`](https://docs.goong.io/docs/javascript/markers/#geolocatecontrol-events).
     children:
       - Evented
       - MapMouseEvent

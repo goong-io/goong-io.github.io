@@ -16,6 +16,6 @@ prependJs:
 - "import html from './flyto-options.html';"
 ---
 
-Use [`flyTo`](/docs/api/map/#map#flyto) with flyOptions to slowly zoom to a location.
+Use [`flyTo`](/docs/javascript/map/#map#flyto) with flyOptions to slowly zoom to a location.
 
 {{ <Example html={html} {...this.props} /> }}

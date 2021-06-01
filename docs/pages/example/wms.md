@@ -16,6 +16,6 @@ prependJs:
 - "import html from './wms.html';"
 ---
 
-Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](/docs/api/map/#map#addsource)'s [`tiles`](/docs/style-spec/sources/#raster-tiles) option.
+Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](/docs/javascript/map/#map#addsource)'s [`tiles`](/docs/style-spec/sources/#raster-tiles) option.
 
 {{ <Example html={html} {...this.props} /> }}

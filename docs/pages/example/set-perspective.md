@@ -16,6 +16,6 @@ prependJs:
 - "import html from './set-perspective.html';"
 ---
 
-Map options extend [`CameraOptions`](/docs/api/properties/#cameraoptions), so you can set more than the center and zoom. This example sets the pitch and bearing.
+Map options extend [`CameraOptions`](/docs/javascript/properties/#cameraoptions), so you can set more than the center and zoom. This example sets the pitch and bearing.
 
 {{ <Example html={html} {...this.props} /> }}

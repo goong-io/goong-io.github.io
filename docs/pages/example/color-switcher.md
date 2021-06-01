@@ -17,6 +17,6 @@ prependJs:
 - "import html from './color-switcher.html';"
 ---
 
-Use [`setPaintProperty`](/docs/api/map/#map#setpaintproperty) to change a layer's fill color.
+Use [`setPaintProperty`](/docs/javascript/map/#map#setpaintproperty) to change a layer's fill color.
 
 {{ <Example html={html} {...this.props} /> }}

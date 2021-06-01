@@ -17,6 +17,6 @@ prependJs:
 - "import html from './add-image-animated.html';"
 ---
 
-Add an animated icon to the map that was generated at runtime with the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).
+Add an animated icon to the map that was generated at runtime with the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/javascript/Canvas_API).
 
 {{ <Example html={html} {...this.props} /> }}

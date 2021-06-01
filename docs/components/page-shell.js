@@ -19,7 +19,7 @@ import apiNavigation from '@mapbox/batfish/data/api-navigation';
 import { styleSpecNavigation } from '../data/style-spec-navigation';
 import plugins from '../data/plugins.json';
 
-import Search from './api/search';
+import Search from './javascript/search';
 import AppropriateImage from './appropriate-image';
 import Browser from '@mapbox/dr-ui/browser';
 import redirectApiRef from '../util/api-ref-redirect';
@@ -46,9 +46,9 @@ class PageShell extends React.Component {
                 window.location = redirectStyleSpec(this.props.location);
         }
 
-        // redirect hashes on /api/
+        // redirect hashes on /javascript/
         if (
-            this.props.location.pathname === '/docs/api/' &&
+            this.props.location.pathname === '/docs/javascript/' &&
             this.props.location.hash
         ) {
             if (redirectApiRef(this.props.location))
@@ -59,7 +59,7 @@ class PageShell extends React.Component {
         const { location, frontMatter } = this.props;
 
         const subSection = findParentPath(navigation, location.pathname);
-        if (subSection === '/docs/api/')
+        if (subSection === '/docs/javascript/')
             return (
                 frontMatter.headings ||
                 apiNavigation.filter((f) => f.path === location.pathname)[0]
@@ -91,7 +91,7 @@ class PageShell extends React.Component {
             navigation,
             this.props.location.pathname
         );
-        if (subSection === '/docs/api/') return <Search />;
+        if (subSection === '/docs/javascript/') return <Search />;
         else return undefined;
     };
     render() {

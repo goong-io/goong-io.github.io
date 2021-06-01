@@ -3,7 +3,7 @@
 exports[`api-navigation 1`] = `
 Array [
   Object {
-    "path": "/docs/api/",
+    "path": "/docs/javascript/",
     "subnav": Array [
       Object {
         "path": "quickstart",
@@ -29,7 +29,7 @@ Array [
     "title": "Introduction",
   },
   Object {
-    "path": "/docs/api/map/",
+    "path": "/docs/javascript/map/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -60,7 +60,7 @@ Array [
     "title": "Map",
   },
   Object {
-    "path": "/docs/api/properties/",
+    "path": "/docs/javascript/properties/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -336,7 +336,7 @@ Array [
     "title": "Properties and options",
   },
   Object {
-    "path": "/docs/api/markers/",
+    "path": "/docs/javascript/markers/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -522,7 +522,7 @@ Array [
     "title": "Markers and controls",
   },
   Object {
-    "path": "/docs/api/geography/",
+    "path": "/docs/javascript/geography/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -668,7 +668,7 @@ Array [
     "title": "Geography and geometry",
   },
   Object {
-    "path": "/docs/api/handlers/",
+    "path": "/docs/javascript/handlers/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -754,7 +754,7 @@ Array [
     "title": "User interaction handlers",
   },
   Object {
-    "path": "/docs/api/sources/",
+    "path": "/docs/javascript/sources/",
     "subnav": Array [
       Object {
         "level": 2,
@@ -845,7 +845,7 @@ Array [
     "title": "Sources",
   },
   Object {
-    "path": "/docs/api/events/",
+    "path": "/docs/javascript/events/",
     "subnav": Array [
       Object {
         "level": 2,

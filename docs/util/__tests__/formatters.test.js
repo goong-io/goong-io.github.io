@@ -5,20 +5,20 @@ import { formatters, toHtml, formatType } from '../formatters';
 describe('formatters', () => {
     it('autolink', () => {
         expect(formatters.autolink('Map#addLayer')).toEqual(
-            '<a href="/docs/api/map/#map#addlayer">Map#addLayer</a>'
+            '<a href="/docs/javascript/map/#map#addlayer">Map#addLayer</a>'
         );
         expect(formatters.autolink('Map.event:webglcontextlost')).toEqual(
-            '<a href="/docs/api/map/#map.event:webglcontextlost">Map.event:webglcontextlost</a>'
+            '<a href="/docs/javascript/map/#map.event:webglcontextlost">Map.event:webglcontextlost</a>'
         );
         expect(formatters.autolink('Map')).toEqual(
-            '<a href="/docs/api/map/#map">Map</a>'
+            '<a href="/docs/javascript/map/#map">Map</a>'
         );
 
         expect(formatters.autolink('GeolocateControl.event:error')).toEqual(
-            '<a href="/docs/api/markers/#geolocatecontrol.event:error">GeolocateControl.event:error</a>'
+            '<a href="/docs/javascript/markers/#geolocatecontrol.event:error">GeolocateControl.event:error</a>'
         );
         expect(formatters.autolink('Popup.event:close')).toEqual(
-            '<a href="/docs/api/markers/#popup.event:close">Popup.event:close</a>'
+            '<a href="/docs/javascript/markers/#popup.event:close">Popup.event:close</a>'
         );
     });
 

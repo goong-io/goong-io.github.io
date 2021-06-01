@@ -16,6 +16,6 @@ prependJs:
 - "import html from './restrict-bounds.html';"
 ---
 
-Prevent a map from being panned to a different place by setting [`maxBounds`](/docs/api/map/#map#setmaxbounds).
+Prevent a map from being panned to a different place by setting [`maxBounds`](/docs/javascript/map/#map#setmaxbounds).
 
 {{ <Example html={html} {...this.props} /> }}

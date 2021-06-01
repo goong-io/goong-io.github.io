@@ -16,6 +16,6 @@ prependJs:
 - "import html from './fitbounds.html';"
 ---
 
-Use [`fitBounds`](/docs/api/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
+Use [`fitBounds`](/docs/javascript/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
 
 {{ <Example html={html} {...this.props} /> }}

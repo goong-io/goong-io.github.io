@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Copyable from '../../components/copyable.js';
+import Copyable from '../copyable.js';
 import SectionWrapper from './section-wrapper';
 import { toHtml } from '../../util/formatters';
 

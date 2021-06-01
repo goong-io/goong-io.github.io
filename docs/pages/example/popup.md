@@ -16,6 +16,6 @@ prependJs:
 - "import html from './popup.html';"
 ---
 
-Add a [`Popup`](https://docs.goong.io/docs/api/markers/#popup) to the map.
+Add a [`Popup`](https://docs.goong.io/docs/javascript/markers/#popup) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

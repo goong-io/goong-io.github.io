@@ -11,7 +11,7 @@ products:
 ---*/
 
 import React from 'react';
-import PageWrapper from '../../components/api/page-wrapper.js';
+import PageWrapper from '../../components/javascript/page-wrapper.js';
 
 export default class Page extends React.Component {
     render() {

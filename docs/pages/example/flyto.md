@@ -16,6 +16,6 @@ prependJs:
 - "import html from './flyto.html';"
 ---
 
-Use [`flyTo`](/docs/api/map/#map#flyto) to smoothly interpolate between locations.
+Use [`flyTo`](/docs/javascript/map/#map#flyto) to smoothly interpolate between locations.
 
 {{ <Example html={html} {...this.props} /> }}

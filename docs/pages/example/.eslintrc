@@ -12,6 +12,7 @@
     },
     "plugins": ["html"],
     "globals": {
+      "GoongGeocoder": true,
       "goong-js": true,
       "goongjs": true,
       "mapboxgl": true,

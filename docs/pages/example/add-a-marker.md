@@ -16,6 +16,6 @@ prependJs:
 - "import html from './add-a-marker.html';"
 ---
 
-Add a default [`Marker`](/docs/api/markers/#marker) to the map.
+Add a default [`Marker`](/docs/javascript/markers/#marker) to the map.
 
 {{ <Example html={html} {...this.props} /> }}
