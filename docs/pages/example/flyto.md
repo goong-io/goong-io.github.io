@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './flyto.html';"
 ---
 
-Use [`flyTo`](/docs/javascript/map/#map#flyto) to smoothly interpolate between locations.
+Use [`flyTo`](https://docs.goong.io/docs/javascript/map/#map#flyto) to smoothly interpolate between locations.
 
 {{ <Example html={html} {...this.props} /> }}

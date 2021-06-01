@@ -11,12 +11,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './color-switcher.html';"
 ---
 
-Use [`setPaintProperty`](/docs/javascript/map/#map#setpaintproperty) to change a layer's fill color.
+Use [`setPaintProperty`](https://docs.goong.io/docs/javascript/map/#map#setpaintproperty) to change a layer's fill color.
 
 {{ <Example html={html} {...this.props} /> }}

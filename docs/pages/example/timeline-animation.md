@@ -11,12 +11,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './timeline-animation.html';"
 ---
 
-Using [`Map#setFilter`](/docs/javascript/map/#map#setfilter) and [D3.js](https://d3js.org/), create a range slider to visualize earthquakes in 2015 that were greater than 5.9 magnitude.
+Using [`Map#setFilter`](https://docs.goong.io/docs/javascript/map/#map#setfilter) and [D3.js](https://d3js.org/), create a range slider to visualize earthquakes in 2015 that were greater than 5.9 magnitude.
 
 {{ <Example html={html} {...this.props} /> }}

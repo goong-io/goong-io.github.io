@@ -12,5 +12,5 @@ showFilters:
 - topics
 - search
 products:
-- Goong GL JS
+- Documentation
 ---

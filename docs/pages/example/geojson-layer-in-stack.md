@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './geojson-layer-in-stack.html';"
 ---
 
-Use the second argument of [`addLayer`](/docs/javascript/map/#map#addlayer), you can be more precise when adding a new layer below labels.
+Use the second argument of [`addLayer`](https://docs.goong.io/docs/javascript/map/#map#addlayer), you can be more precise when adding a new layer below labels.
 
 {{ <Example html={html} {...this.props} /> }}

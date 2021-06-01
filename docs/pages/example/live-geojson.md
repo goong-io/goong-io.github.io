@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './live-geojson.html';"
 ---
 
-Use realtime GeoJSON data streams to move a [`symbol`](/docs/style-spec/layers/#symbol) on your map.
+Use realtime GeoJSON data streams to move a [`symbol`](https://docs.goong.io/docs/style-spec/layers/#symbol) on your map.
 
 {{ <Example html={html} {...this.props} /> }}

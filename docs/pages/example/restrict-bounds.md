@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './restrict-bounds.html';"
 ---
 
-Prevent a map from being panned to a different place by setting [`maxBounds`](/docs/javascript/map/#map#setmaxbounds).
+Prevent a map from being panned to a different place by setting [`maxBounds`](https://docs.goong.io/docs/javascript/map/#map#setmaxbounds).
 
 {{ <Example html={html} {...this.props} /> }}

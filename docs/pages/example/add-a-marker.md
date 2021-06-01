@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './add-a-marker.html';"
 ---
 
-Add a default [`Marker`](/docs/javascript/markers/#marker) to the map.
+Add a default [`Marker`](https://docs.goong.io/docs/javascript/markers/#marker) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

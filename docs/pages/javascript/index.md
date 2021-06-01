@@ -9,12 +9,11 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Quickstart from '../../components/quickstart';"
 - "import Example from '../../components/example';"
 - "import SimpleMapHtml from '../example/simple-map.html';"
-- "import urls from '../../components/urls';"
 overviewHeader:
   title: Using Goong Maps with Goong JS
   features:
@@ -62,13 +61,13 @@ We are now migrating this documentation from Mapbox to Goong. If you want to con
 
 This documentation is divided into several sections:
 
-* [**Map**](/docs/javascript/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
-* [**Properties and options**](/docs/javascript/properties/). This section describes Goong GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
-* [**Markers and controls**](/docs/javascript/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
-* [**Geography and geometry**](/docs/javascript/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
-* [**User interaction handlers**](/docs/javascript/handlers/). The items in this section relate to the ways in which the map responds to user input.
-* [**Sources**](/docs/javascript/sources/). This section describes the source types Goong GL JS can handle besides the ones described in the [Goong Style Specification](/docs/style-spec/).
-* [**Events**](/docs/javascript/events/). This section describes the different types of events that Goong GL JS can raise.
+* [**Map**](https://docs.goong.io/docs/javascript/map/). The `Map` object is the map on your page. It lets you access methods and properties for interacting with the map's style and layers, respond to events, and manipulate the user's perspective with the camera.
+* [**Properties and options**](https://docs.goong.io/docs/javascript/properties/). This section describes Goong GL JS's global properties and options that you might want to access while initializing your map or accessing information about its status.
+* [**Markers and controls**](https://docs.goong.io/docs/javascript/markers/). This section describes the user interface elements that you can add to your map. The items in this section exist outside of the map's `canvas` element.
+* [**Geography and geometry**](https://docs.goong.io/docs/javascript/geography/). This section includes general utilities and types that relate to working with and manipulating geographic information or geometries.
+* [**User interaction handlers**](https://docs.goong.io/docs/javascript/handlers/). The items in this section relate to the ways in which the map responds to user input.
+* [**Sources**](https://docs.goong.io/docs/javascript/sources/). This section describes the source types Goong GL JS can handle besides the ones described in the [Goong Style Specification](https://docs.goong.io/docs/style-spec/).
+* [**Events**](https://docs.goong.io/docs/javascript/events/). This section describes the different types of events that Goong GL JS can raise.
 
 Each section describes classes or objects as well as their **properties**, **parameters**, **instance members**, and associated **events**. Many sections also include inline code examples and related resources.
 
@@ -82,7 +81,7 @@ Note too that if the CSS isn't available by the first render, as soon as the CSS
 
 ## Dependencies
 
-The dependencies for Goong GL JS (`.js` & `.css`) are distributed via [jsdelivr.net](https://jsdelivr.net).
+The dependencies for Goong GL JS (`.js` & `.css`) are distributed via [jsdelivr.net](https://cdn.jsdelivr.net/).
 
 
 *Examples*

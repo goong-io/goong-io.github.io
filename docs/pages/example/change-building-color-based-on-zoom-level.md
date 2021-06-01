@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './change-building-color-based-on-zoom-level.html';"
 ---
 
-Use the [`interpolate` expression](/docs/style-spec/expressions/#interpolate) to ease-in the building layer and smoothly fade from one color to the next.
+Use the [`interpolate` expression](https://docs.goong.io/docs/style-spec/expressions/#interpolate) to ease-in the building layer and smoothly fade from one color to the next.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -1,13 +1,13 @@
 ---
 title: Geocode
 id: Geocode
-description: Goong Geocoding API
+description: Goong Geocoding API.
 contentType: specification
 order: 4
 layout: page
 hideFeedback: true
 products:
-- Goong Rest API
+- Documentation
 prependJs:
 - "import Copyable from '../../components/copyable';"
 ---

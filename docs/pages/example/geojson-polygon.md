@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './geojson-polygon.html';"
 ---
 
-Style a polygon with the [fill layer](/docs/style-spec/layers/#fill) type.
+Style a polygon with the [fill layer](https://docs.goong.io/docs/style-spec/layers/#fill) type.
 
 {{ <Example html={html} {...this.props} /> }}

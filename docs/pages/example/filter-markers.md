@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './filter-markers.html';"
 ---
 
-Filter a set of [symbols](/docs/style-spec/layers/#symbol) based on a property value in the data.
+Filter a set of [symbols](https://docs.goong.io/docs/style-spec/layers/#symbol) based on a property value in the data.
 
 {{ <Example html={html} {...this.props} /> }}

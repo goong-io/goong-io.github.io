@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './line-gradient.html';"
 ---
 
-Use the [`line-gradient`](/docs/style-spec/layers/#paint-line-line-gradient) paint property and an expression to visualize distance from the starting point of a line.
+Use the [`line-gradient`](https://docs.goong.io/docs/style-spec/layers/#paint-line-line-gradient) paint property and an expression to visualize distance from the starting point of a line.
 
 {{ <Example html={html} {...this.props} /> }}

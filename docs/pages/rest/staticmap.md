@@ -1,13 +1,13 @@
 ---
 title: Static Map
 id: StaticMap
-description: Goong Static Map API
+description: Goong Static Map API.
 contentType: specification
 order: 5
 layout: page
 hideFeedback: true
 products:
-- Goong Rest API
+- Documentation
 prependJs:
 - "import Copyable from '../../components/copyable';"
 ---

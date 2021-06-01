@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './add-3d-model.html';"
 ---
 
-Use a [custom style layer](/docs/javascript/properties/#customlayerinterface) with [three.js](https://threejs.org) to add a 3D model to the map.
+Use a [custom style layer](https://docs.goong.io/docs/javascript/properties/#customlayerinterface) with [three.js](https://threejs.org) to add a 3D model to the map.
 
 {{ <Example html={html} {...this.props} /> }}

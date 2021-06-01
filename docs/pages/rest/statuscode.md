@@ -1,13 +1,13 @@
 ---
 title: Error Code
 id: errorcode
-description: Goong error code
+description: Goong error code.
 contentType: specification
 order: 6
 layout: page
 hideFeedback: true
 products:
-- Goong Rest API
+- Documentation
 ---
 
 ```

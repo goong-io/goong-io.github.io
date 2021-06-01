@@ -10,7 +10,7 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 - Mapbox Satellite tileset
 prependJs:
 - "import Example from '../../components/example';"

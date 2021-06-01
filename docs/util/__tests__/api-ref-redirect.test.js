@@ -43,11 +43,11 @@ it(`api-ref-redirect`, () => {
         })
     ).toEqual('/docs/javascript/markers/#icontrol#getdefaultposition');
 
-    expect(
-        redirect({
-            hash: '#touchpitchhandler#isenabled'
-        })
-    ).toEqual('/docs/javascript/handlers/#touchpitchhandler#isenabled');
+    // expect(
+    //     redirect({
+    //         hash: '#touchpitchhandler#isenabled'
+    //     })
+    // ).toEqual('/docs/javascript/handlers/#touchpitchhandler#isenabled');
 
     expect(
         redirect({
@@ -67,9 +67,9 @@ it(`api-ref-redirect`, () => {
         })
     ).toEqual('/docs/javascript/events/#mapwheelevent#type');
 
-    expect(
-        redirect({
-            hash: '#clearprewarmedresources'
-        })
-    ).toEqual('/docs/javascript/properties/#clearprewarmedresources');
+    // expect(
+    //     redirect({
+    //         hash: '#clearprewarmedresources'
+    //     })
+    // ).toEqual('/docs/javascript/properties/#clearprewarmedresources');
 });

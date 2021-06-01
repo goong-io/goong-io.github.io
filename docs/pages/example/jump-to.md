@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './jump-to.html';"
 ---
 
-Use the [`jumpTo` function](/docs/javascript/map/#map#jumpto) to showcase multiple locations.
+Use the [`jumpTo` function](https://docs.goong.io/docs/javascript/map/#map#jumpto) to showcase multiple locations.
 
 {{ <Example html={html} {...this.props} /> }}

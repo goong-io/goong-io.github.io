@@ -7,7 +7,7 @@ layout: page
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 ---*/
 
 import React from 'react';

@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './heatmap-layer.html';"
 ---
 
-Visualize earthquake frequency by location using a [heatmap layer](/docs/style-spec/layers/#heatmap).
+Visualize earthquake frequency by location using a [heatmap layer](https://docs.goong.io/docs/style-spec/layers/#heatmap).
 
 {{ <Example html={html} {...this.props} /> }}

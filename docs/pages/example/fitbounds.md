@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './fitbounds.html';"
 ---
 
-Use [`fitBounds`](/docs/javascript/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
+Use [`fitBounds`](https://docs.goong.io/docs/javascript/map/#map#fitbounds) to show a specific area of the map in view, regardless of the pixel size of the map.
 
 {{ <Example html={html} {...this.props} /> }}

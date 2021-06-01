@@ -1,8 +1,8 @@
 ---
 title: Use the geocoder without a map
-description: Use goong-geocoder-js to display a search box without a map
+description: Use goong-geocoder-js to display a search box without a map.
 topics:
-  - Maps
+  - Geocoder
 thumbnail: 3d-buildings
 contentType: example
 layout: example
@@ -10,7 +10,7 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 - Mapbox Streets tileset
 prependJs:
 - "import Example from '../../components/example';"

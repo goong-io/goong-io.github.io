@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './filter-markers-by-input.html';"
 ---
 
-Filter [symbols](/docs/style-spec/layers/#symbol) by icon name by typing in a text input.
+Filter [symbols](https://docs.goong.io/docs/style-spec/layers/#symbol) by icon name by typing in a text input.
 
 {{ <Example html={html} {...this.props} /> }}

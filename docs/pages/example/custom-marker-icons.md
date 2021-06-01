@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './custom-marker-icons.html';"
 ---
 
-Use [`Marker`](/docs/javascript/markers/#marker) to add custom icons to your map.
+Use [`Marker`](https://docs.goong.io/docs/javascript/markers/#marker) to add custom icons to your map.
 
 {{ <Example html={html} {...this.props} /> }}

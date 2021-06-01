@@ -11,12 +11,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './camera-animation.html';"
 ---
 
-Customize camera animations using [`AnimationOptions`](/docs/javascript/properties/#animationoptions).
+Customize camera animations using [`AnimationOptions`](https://docs.goong.io/docs/javascript/properties/#animationoptions).
 
 {{ <Example html={html} {...this.props} /> }}

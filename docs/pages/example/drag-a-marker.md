@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './drag-a-marker.html';"
 ---
 
-Drag the [`Marker`](/docs/javascript/markers/#marker) to a new location on a map and populate its coordinates in a display.
+Drag the [`Marker`](https://docs.goong.io/docs/javascript/markers/#marker) to a new location on a map and populate its coordinates in a display.
 
 {{ <Example html={html} {...this.props} /> }}

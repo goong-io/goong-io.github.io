@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './fill-pattern.html';"
 ---
 
-Use [`fill-pattern`](/docs/style-spec/layers/#paint-fill-fill-pattern) to draw a polygon from a repeating image pattern.
+Use [`fill-pattern`](https://docs.goong.io/docs/style-spec/layers/#paint-fill-fill-pattern) to draw a polygon from a repeating image pattern.
 
 {{ <Example html={html} {...this.props} /> }}

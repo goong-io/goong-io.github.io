@@ -8,13 +8,11 @@ navOrder: 3
 layout: page # use the layout page
 hideFeedback: true # hide feedback from page
 products:
-- Goong GL JS
-prependJs:
-- "import Plugins from '../../components/plugins-page';"
+- Documentation
 ---
 ---
 
-*Goong REST API is a drop-in replacement for Google Maps API, only endpoint and API-key change neccessary. Request and Response format same as Google Maps.*
+*Goong REST API is a drop-in replacement for Google Maps API, only endpoint and API-key change necessary. Request and Response format same as Google Maps.*
 
 ---
 To get started with Goong REST API, [get your own API key](https://account.goong.io)
@@ -29,7 +27,7 @@ Visit our [API Inspector](https://inspector.goong.io)
 https://rsapi.goong.io/
 ```
 
-## Params need for all
+## Parameters need for all
 
 ```
 api_key={your_api_key}

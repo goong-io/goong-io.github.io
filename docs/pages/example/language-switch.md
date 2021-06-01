@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './language-switch.html';"
 ---
 
-Use [`setLayoutProperty`](/docs/javascript/map/#map#setlayoutproperty) to switch languages dynamically. For a more complete solution see the [mapbox-gl-language](https://github.com/mapbox/mapbox-gl-language/) plugin.
+Use [`setLayoutProperty`](https://docs.goong.io/docs/javascript/map/#map#setlayoutproperty) to switch languages dynamically. For a more complete solution see the [mapbox-gl-language](https://github.com/mapbox/mapbox-gl-language/) plugin.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './fallback-image.html';"
 ---
 
-Use a [`coalesce`](/docs/style-spec/expressions/#coalesce) expression to display another image when a requested image is not available.
+Use a [`coalesce`](https://docs.goong.io/docs/style-spec/expressions/#coalesce) expression to display another image when a requested image is not available.
 
 {{ <Example html={html} {...this.props} /> }}

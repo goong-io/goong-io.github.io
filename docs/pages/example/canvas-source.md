@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './canvas-source.html';"
 ---
 
-Add a [`CanvasSource`](/docs/javascript/sources/#canvassource) to the map.
+Add a [`CanvasSource`](https://docs.goong.io/docs/javascript/sources/#canvassource) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

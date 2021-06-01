@@ -8,7 +8,7 @@ navOrder: 2
 layout: page # use the layout page
 hideFeedback: true # hide feedback from page
 products:
-- Goong GL JS
+- Documentation
 ---
 
 Goong use Mapbox mobile libraries to provide map elements for your applications.
@@ -35,7 +35,7 @@ https://tiles.goong.io/assets/navigation_day.json
 https://tiles.goong.io/assets/navigation_night.json
 ```
 ## Code example
-After installation, simply set the styleURL to Goong's styleURL
+After installation, set the `styleURL` to Goong's `styleURL`
 ### iOS
 ```swift
 import Mapbox

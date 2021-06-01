@@ -69,11 +69,6 @@ Array [
       },
       Object {
         "level": 3,
-        "slug": "accesstoken-returns",
-        "text": "Returns",
-      },
-      Object {
-        "level": 3,
         "slug": "accesstoken-example",
         "text": "Example",
       },
@@ -89,11 +84,6 @@ Array [
       },
       Object {
         "level": 3,
-        "slug": "baseapiurl-returns",
-        "text": "Returns",
-      },
-      Object {
-        "level": 3,
         "slug": "baseapiurl-example",
         "text": "Example",
       },
@@ -104,11 +94,6 @@ Array [
       },
       Object {
         "level": 3,
-        "slug": "workercount-returns",
-        "text": "Returns",
-      },
-      Object {
-        "level": 3,
         "slug": "workercount-example",
         "text": "Example",
       },
@@ -116,11 +101,6 @@ Array [
         "level": 2,
         "slug": "maxparallelimagerequests",
         "text": "maxParallelImageRequests",
-      },
-      Object {
-        "level": 3,
-        "slug": "maxparallelimagerequests-returns",
-        "text": "Returns",
       },
       Object {
         "level": 3,
@@ -198,11 +178,6 @@ Array [
         "text": "Parameters",
       },
       Object {
-        "level": 3,
-        "slug": "clearstorage-example",
-        "text": "Example",
-      },
-      Object {
         "level": 2,
         "slug": "animationoptions",
         "text": "AnimationOptions",
@@ -223,16 +198,6 @@ Array [
         "text": "Properties",
       },
       Object {
-        "level": 3,
-        "slug": "cameraoptions-example",
-        "text": "Example",
-      },
-      Object {
-        "level": 3,
-        "slug": "cameraoptions-related",
-        "text": "Related",
-      },
-      Object {
         "level": 2,
         "slug": "paddingoptions",
         "text": "PaddingOptions",
@@ -243,16 +208,6 @@ Array [
         "text": "Properties",
       },
       Object {
-        "level": 3,
-        "slug": "paddingoptions-example",
-        "text": "Example",
-      },
-      Object {
-        "level": 3,
-        "slug": "paddingoptions-related",
-        "text": "Related",
-      },
-      Object {
         "level": 2,
         "slug": "requestparameters",
         "text": "RequestParameters",
@@ -261,11 +216,6 @@ Array [
         "level": 3,
         "path": "requestparameters-properties",
         "text": "Properties",
-      },
-      Object {
-        "level": 3,
-        "slug": "requestparameters-example",
-        "text": "Example",
       },
       Object {
         "level": 2,
@@ -311,26 +261,6 @@ Array [
         "level": 3,
         "slug": "customlayerinterface-instance-members",
         "text": "Instance members",
-      },
-      Object {
-        "level": 2,
-        "slug": "prewarm",
-        "text": "prewarm",
-      },
-      Object {
-        "level": 3,
-        "slug": "prewarm-example",
-        "text": "Example",
-      },
-      Object {
-        "level": 2,
-        "slug": "clearprewarmedresources",
-        "text": "clearPrewarmedResources",
-      },
-      Object {
-        "level": 3,
-        "slug": "clearprewarmedresources-example",
-        "text": "Example",
       },
     ],
     "title": "Properties and options",
@@ -605,19 +535,9 @@ Array [
         "text": "Point",
       },
       Object {
-        "level": 3,
-        "slug": "point-example",
-        "text": "Example",
-      },
-      Object {
         "level": 2,
         "slug": "pointlike",
         "text": "PointLike",
-      },
-      Object {
-        "level": 3,
-        "slug": "pointlike-example",
-        "text": "Example",
       },
       Object {
         "level": 2,
@@ -648,21 +568,6 @@ Array [
         "level": 3,
         "slug": "mercatorcoordinate-related",
         "text": "Related",
-      },
-      Object {
-        "level": 2,
-        "slug": "edgeinsets",
-        "text": "EdgeInsets",
-      },
-      Object {
-        "level": 3,
-        "slug": "edgeinsets-parameters",
-        "text": "Parameters",
-      },
-      Object {
-        "level": 3,
-        "slug": "edgeinsets-static-members",
-        "text": "Static members",
       },
     ],
     "title": "Geography and geometry",
@@ -737,17 +642,12 @@ Array [
       },
       Object {
         "level": 3,
-        "slug": "touchzoomrotatehandler-instance-members",
-        "text": "Instance members",
-      },
-      Object {
-        "level": 2,
-        "slug": "touchpitchhandler",
-        "text": "TouchPitchHandler",
+        "slug": "touchzoomrotatehandler-static-members",
+        "text": "Static members",
       },
       Object {
         "level": 3,
-        "slug": "touchpitchhandler-instance-members",
+        "slug": "touchzoomrotatehandler-instance-members",
         "text": "Instance members",
       },
     ],
@@ -864,11 +764,6 @@ Array [
       },
       Object {
         "level": 3,
-        "slug": "mapmouseevent-example",
-        "text": "Example",
-      },
-      Object {
-        "level": 3,
         "slug": "mapmouseevent-instance-members",
         "text": "Instance members",
       },
@@ -901,11 +796,6 @@ Array [
         "level": 3,
         "path": "mapdataevent-properties",
         "text": "Properties",
-      },
-      Object {
-        "level": 3,
-        "slug": "mapdataevent-example",
-        "text": "Example",
       },
       Object {
         "level": 2,

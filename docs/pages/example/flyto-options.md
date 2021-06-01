@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './flyto-options.html';"
 ---
 
-Use [`flyTo`](/docs/javascript/map/#map#flyto) with flyOptions to slowly zoom to a location.
+Use [`flyTo`](https://docs.goong.io/docs/javascript/map/#map#flyto) with flyOptions to slowly zoom to a location.
 
 {{ <Example html={html} {...this.props} /> }}

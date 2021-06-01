@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './display-and-style-rich-text-labels.html';"
 ---
 
-Use the [`format` expression](/docs/style-spec/expressions/#types-format) to display country labels in both English and in the local language.
+Use the [`format` expression](https://docs.goong.io/docs/style-spec/expressions/#types-format) to display country labels in both English and in the local language.
 
 {{ <Example html={html} {...this.props} /> }}

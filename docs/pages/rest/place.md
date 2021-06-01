@@ -1,13 +1,13 @@
 ---
 title: Places
 id: places
-description: Goong Places API
+description: Goong Places API.
 contentType: specification
 order: 3
 layout: page
 hideFeedback: true
 products:
-- Goong Rest API
+- Documentation
 prependJs:
 - "import Copyable from '../../components/copyable';"
 ---

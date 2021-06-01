@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './set-perspective.html';"
 ---
 
-Map options extend [`CameraOptions`](/docs/javascript/properties/#cameraoptions), so you can set more than the center and zoom. This example sets the pitch and bearing.
+Map options extend [`CameraOptions`](https://docs.goong.io/docs/javascript/properties/#cameraoptions), so you can set more than the center and zoom. This example sets the pitch and bearing.
 
 {{ <Example html={html} {...this.props} /> }}

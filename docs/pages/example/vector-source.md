@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './vector-source.html';"
 ---
 
-Add a [vector source](/docs/style-spec/sources/#vector) to a map.
+Add a [vector source](https://docs.goong.io/docs/style-spec/sources/#vector) to a map.
 
 {{ <Example html={html} {...this.props} /> }}

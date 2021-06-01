@@ -8,7 +8,7 @@ navOrder: 5
 layout: page # use the layout page
 hideFeedback: true # hide feedback from page
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Plugins from '../../components/plugins-page';"
 ---

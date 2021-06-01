@@ -10,13 +10,13 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 thumbnail: line-across-180th-meridian
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './line-across-180th-meridian.html';"
 ---
 
-Draw a line across the 180th meridian using a [GeoJSON source](/docs/style-spec/sources/#geojson).
+Draw a line across the 180th meridian using a [GeoJSON source](https://docs.goong.io/docs/style-spec/sources/#geojson).
 
 {{ <Example html={html} {...this.props} /> }}

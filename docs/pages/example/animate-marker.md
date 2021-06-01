@@ -10,12 +10,12 @@ hideFeedback: true
 language:
 - JavaScript
 products:
-- Goong GL JS
+- Documentation
 prependJs:
 - "import Example from '../../components/example';"
 - "import html from './animate-marker.html';"
 ---
 
-Animate the position of a [`Marker`](/docs/javascript/markers/#marker) by updating its location on each frame.
+Animate the position of a [`Marker`](https://docs.goong.io/docs/javascript/markers/#marker) by updating its location on each frame.
 
 {{ <Example html={html} {...this.props} /> }}

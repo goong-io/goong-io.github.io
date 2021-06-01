@@ -1,13 +1,13 @@
 ---
 title: Direction
 id: direction
-description: Direction from A to B
+description: Direction from A to B.
 contentType: specification
 order: 1
 layout: page
 hideFeedback: true
 products:
-- Goong Rest API
+- Documentation
 prependJs:
 - "import Copyable from '../../components/copyable';"
 ---
