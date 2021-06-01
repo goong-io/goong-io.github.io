@@ -1,5 +1,5 @@
 ---
-title: API Reference
+title: Javascript API
 description: Using the Goong GL JS API documentation to render interactive maps from vector tiles and Goong styles.
 contentType: API
 navOrder: 1

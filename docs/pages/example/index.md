@@ -1,10 +1,10 @@
 ---
 title: Examples
-description: Code examples for Mapbox GL JS.
+description: Code examples for Goong GL JS.
 contentType: example
 layout: example
 hideFeedback: true
-navOrder: 2
+navOrder: 4
 language:
 - JavaScript
 hideCardLanguage: true # hides the language from card (repetitive)

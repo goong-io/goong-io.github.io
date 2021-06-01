@@ -1,10 +1,10 @@
 ---
 title: Plugins
-description: Extend your Mapbox GL JS map with plugins.
+description: Extend your Goong GL JS map with plugins.
 contentType: example
 language:
 - JavaScript
-navOrder: 3
+navOrder: 5
 layout: page # use the layout page
 hideFeedback: true # hide feedback from page
 products:

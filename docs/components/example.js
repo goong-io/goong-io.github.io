@@ -108,8 +108,8 @@ if (window.map instanceof mapboxgl.Map) {
         return (
             <div className="prose">
                 {this.state.unsupported && (
-                    <Note title="Mapbox GL unsupported" theme="warning">
-                        Mapbox GL requires{' '}
+                    <Note title="Goong GL unsupported" theme="warning">
+                        Goong GL requires{' '}
                         <a
                             className="link"
                             href="https://caniuse.com/#feat=webgl"
