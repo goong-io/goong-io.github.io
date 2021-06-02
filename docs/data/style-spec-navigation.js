@@ -47,15 +47,15 @@ function makeSubNav(entry, section, level) {
 }
 
 export const styleSpecNavigation = [
-    { title: 'Introduction', path: '/docs/style-spec/' },
+    { title: 'Introduction', path: '/style-spec/' },
     {
         title: 'Root',
-        path: '/docs/style-spec/root/',
+        path: '/style-spec/root/',
         subnav: makeSubNav(ref.$root, null, 2)
     },
     {
         title: 'Sources',
-        path: '/docs/style-spec/sources/',
+        path: '/style-spec/sources/',
         subnav: [
             {
                 text: 'vector',
@@ -97,7 +97,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Layers',
-        path: '/docs/style-spec/layers/',
+        path: '/style-spec/layers/',
         subnav: layerTypes.reduce((arr, type) => {
             arr.push({
                 text: type,
@@ -114,7 +114,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Expressions',
-        path: '/docs/style-spec/expressions/',
+        path: '/style-spec/expressions/',
         subnav: groupedExpressions.reduce((arr, group) => {
             arr.push({
                 text: group.name,
@@ -136,7 +136,7 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Types',
-        path: '/docs/style-spec/types/',
+        path: '/style-spec/types/',
         subnav: [
             {
                 text: 'Color',
@@ -177,25 +177,25 @@ export const styleSpecNavigation = [
     },
     {
         title: 'Sprite',
-        path: '/docs/style-spec/sprite/'
+        path: '/style-spec/sprite/'
     },
     {
         title: 'Glyphs',
-        path: '/docs/style-spec/glyphs/'
+        path: '/style-spec/glyphs/'
     },
     {
         title: 'Transition',
-        path: '/docs/style-spec/transition/',
+        path: '/style-spec/transition/',
         subnav: makeSubNav(ref.transition, null, 2)
     },
     {
         title: 'Light',
-        path: '/docs/style-spec/light/',
+        path: '/style-spec/light/',
         subnav: makeSubNav(ref.light, null, 2)
     },
     {
         title: 'Other',
-        path: '/docs/style-spec/other/',
+        path: '/style-spec/other/',
         tag: 'legacy',
         subnav: [
             {

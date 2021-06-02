@@ -16,6 +16,6 @@ prependJs:
 - "import html from './variable-label-placement.html';"
 ---
 
-Use [`text-variable-anchor`](https://docs.goong.io/docs/style-spec/layers/#layout-symbol-text-variable-anchor) to allow high priority labels to shift position to stay on the map.
+Use [`text-variable-anchor`](https://docs.goong.io/style-spec/layers/#layout-symbol-text-variable-anchor) to allow high priority labels to shift position to stay on the map.
 
 {{ <Example html={html} {...this.props} /> }}

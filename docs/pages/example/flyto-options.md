@@ -16,6 +16,6 @@ prependJs:
 - "import html from './flyto-options.html';"
 ---
 
-Use [`flyTo`](https://docs.goong.io/docs/javascript/map/#map#flyto) with flyOptions to slowly zoom to a location.
+Use [`flyTo`](https://docs.goong.io/javascript/map/#map#flyto) with flyOptions to slowly zoom to a location.
 
 {{ <Example html={html} {...this.props} /> }}

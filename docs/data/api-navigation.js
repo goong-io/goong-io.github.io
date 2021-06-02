@@ -8,7 +8,7 @@ const apiFilterItems = require('../util/api-filter-items.js');
 module.exports = [
     {
         title: 'Introduction',
-        path: '/docs/javascript/',
+        path: '/javascript/',
         subnav: [
             {
                 title: 'Quickstart',
@@ -34,7 +34,7 @@ module.exports = [
     },
     {
         title: 'Map',
-        path: '/docs/javascript/map/',
+        path: '/javascript/map/',
         subnav: buildSubSubNav(
             apiFilterItems('Map class')[0].members.static[0], // Hack to resolve naming documentaiton.yml conflict b/w the "Map" class and the "Map" section
             'map',
@@ -43,33 +43,33 @@ module.exports = [
     },
     {
         title: 'Properties and options',
-        path: '/docs/javascript/properties/',
+        path: '/javascript/properties/',
         subnav: buldSubNav('Properties and options')
     },
     {
         title: 'Markers and controls',
-        path: '/docs/javascript/markers/',
+        path: '/javascript/markers/',
         subnav: buldSubNav('Markers and controls')
     },
 
     {
         title: 'Geography and geometry',
-        path: '/docs/javascript/geography/',
+        path: '/javascript/geography/',
         subnav: buldSubNav('Geography and geometry')
     },
     {
         title: 'User interaction handlers',
-        path: '/docs/javascript/handlers/',
+        path: '/javascript/handlers/',
         subnav: buldSubNav('User interaction handlers')
     },
     {
         title: 'Sources',
-        path: '/docs/javascript/sources/',
+        path: '/javascript/sources/',
         subnav: buldSubNav('Sources')
     },
     {
         title: 'Events',
-        path: '/docs/javascript/events/',
+        path: '/javascript/events/',
         subnav: buldSubNav('Events')
     }
 ];

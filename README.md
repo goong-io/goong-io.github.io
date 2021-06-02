@@ -4,7 +4,7 @@ The source code for /docs/, the website that hosts [API documentation](#writing-
 
 ## Migration Note
 
-We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/docs/issues) on GitHub or submit a [pull request](https://github.com/goong-io/docs/pulls) to propose directly your changes.
+We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/goong-io.github.io/issues) on GitHub or submit a [pull request](https://github.com/goong-io/goong-io.github.io/pulls) to propose directly your changes.
 
 ## Requirements
 
@@ -57,12 +57,12 @@ In content area of the markdown page include an extended description of the exam
 In the `.html` file, write the HTML and JavaScript constituting the example.
 
 * Do **not** include an access token in the example code. The access token will be inserted automatically by the template, using the current logged in user's default public token, or a placeholder `<insert token here>` string if the user is not logged in.
-* Do **not** use custom styles from your personal account. Use only the default `mapbox` account styles.
+* Do **not** use custom styles from your personal account. Use only the default `goong` account styles.
 * On commit, Prettier will format the code for all files, including HTML.
 
 Every example **must** have an accompanying image. To get an image, run the site locally and take a screenshot of the rendered map in the example:
 
-1. Run `npm run create-image <example-file-name> <mapbox-access-token>`. The script will take a screenshot of the map in the example and save it to `docs/img/src/`. Commit the image.
+1. Run `npm run create-image <example-file-name> <goong-maptiles-api-key>`. The script will take a screenshot of the map in the example and save it to `docs/img/src/`. Commit the image.
 2. Run `npm start` to verify that your example image is loading as expected.
 
 💡 If `npm run create-image` does not generate an ideal image. You can also take a screenshot of it yourself by running the site locally with `npm start` and taking a screenshot of the example map in PNG format. Resize it to 1200 x 500 pixels and save it in the `docs/img/src` folder.

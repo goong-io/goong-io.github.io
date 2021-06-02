@@ -3,7 +3,7 @@ const GithubSlugger = require('github-slugger');
 
 function linker(namespace) {
     const page = findPage(namespace);
-    const path = page ? `/docs/javascript/${page}/` : '';
+    const path = page ? `/javascript/${page}/` : '';
     if (namespace.indexOf('.') > -1) {
         return `${path}#${namespace.toLowerCase()}`;
     } else {

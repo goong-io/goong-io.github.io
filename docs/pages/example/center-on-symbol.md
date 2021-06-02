@@ -17,6 +17,6 @@ prependJs:
 - "import html from './center-on-symbol.html';"
 ---
 
-Use events and [`flyTo`](https://docs.goong.io/docs/javascript/map/#map#flyto) to center the map on a [`symbol`](https://docs.goong.io/docs/style-spec/layers/#symbol).
+Use events and [`flyTo`](https://docs.goong.io/javascript/map/#map#flyto) to center the map on a [`symbol`](https://docs.goong.io/style-spec/layers/#symbol).
 
 {{ <Example html={html} {...this.props} /> }}

@@ -16,6 +16,6 @@ prependJs:
 - "import html from './vector-source.html';"
 ---
 
-Add a [vector source](https://docs.goong.io/docs/style-spec/sources/#vector) to a map.
+Add a [vector source](https://docs.goong.io/style-spec/sources/#vector) to a map.
 
 {{ <Example html={html} {...this.props} /> }}

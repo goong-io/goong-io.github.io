@@ -17,6 +17,6 @@ prependJs:
 - "import html from './color-switcher.html';"
 ---
 
-Use [`setPaintProperty`](https://docs.goong.io/docs/javascript/map/#map#setpaintproperty) to change a layer's fill color.
+Use [`setPaintProperty`](https://docs.goong.io/javascript/map/#map#setpaintproperty) to change a layer's fill color.
 
 {{ <Example html={html} {...this.props} /> }}

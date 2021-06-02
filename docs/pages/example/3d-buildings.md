@@ -17,6 +17,6 @@ prependJs:
 - "import html from './3d-buildings.html';"
 ---
 
-Use [extrusions](https://docs.goong.io/docs/style-spec/layers/#fill-extrusion) to display buildings' height in 3D.
+Use [extrusions](https://docs.goong.io/style-spec/layers/#fill-extrusion) to display buildings' height in 3D.
 
 {{ <Example html={html} {...this.props} /> }}

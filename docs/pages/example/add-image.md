@@ -17,6 +17,6 @@ prependJs:
 - "import html from './add-image.html';"
 ---
 
-Add an icon to the map from an external URL and use it in a [symbol layer](https://docs.goong.io/docs/style-spec/layers/#symbol).
+Add an icon to the map from an external URL and use it in a [symbol layer](https://docs.goong.io/style-spec/layers/#symbol).
 
 {{ <Example html={html} {...this.props} /> }}

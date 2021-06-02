@@ -17,6 +17,6 @@ prependJs:
 - "import html from './line-across-180th-meridian.html';"
 ---
 
-Draw a line across the 180th meridian using a [GeoJSON source](https://docs.goong.io/docs/style-spec/sources/#geojson).
+Draw a line across the 180th meridian using a [GeoJSON source](https://docs.goong.io/style-spec/sources/#geojson).
 
 {{ <Example html={html} {...this.props} /> }}

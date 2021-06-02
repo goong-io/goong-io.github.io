@@ -16,6 +16,6 @@ prependJs:
 - "import html from './data-driven-lines.html';"
 ---
 
-Create a visualization with a data expression for [`line-color`](https://docs.goong.io/docs/style-spec/layers/#paint-line-line-color).
+Create a visualization with a data expression for [`line-color`](https://docs.goong.io/style-spec/layers/#paint-line-line-color).
 
 {{ <Example html={html} {...this.props} /> }}

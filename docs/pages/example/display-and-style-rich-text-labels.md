@@ -16,6 +16,6 @@ prependJs:
 - "import html from './display-and-style-rich-text-labels.html';"
 ---
 
-Use the [`format` expression](https://docs.goong.io/docs/style-spec/expressions/#types-format) to display country labels in both English and in the local language.
+Use the [`format` expression](https://docs.goong.io/style-spec/expressions/#types-format) to display country labels in both English and in the local language.
 
 {{ <Example html={html} {...this.props} /> }}

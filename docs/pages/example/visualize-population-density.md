@@ -16,6 +16,6 @@ prependJs:
 - "import html from './visualize-population-density.html';"
 ---
 
-Use a [variable binding expression](https://docs.goong.io/docs/style-spec/expressions/#variable-binding) to calculate and display population density.
+Use a [variable binding expression](https://docs.goong.io/style-spec/expressions/#variable-binding) to calculate and display population density.
 
 {{ <Example html={html} {...this.props} /> }}

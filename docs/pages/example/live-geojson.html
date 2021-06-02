@@ -5,7 +5,8 @@
     var map = new goongjs.Map({
         container: 'map',
         style: 'https://tiles.goong.io/assets/goong_map_web.json',
-        zoom: 0
+        zoom: 5,
+        center: [105, 21]
     });
 
     var url = 'https://wanderdrone.appspot.com/';
@@ -38,7 +39,7 @@
             'type': 'symbol',
             'source': 'drone',
             'layout': {
-                'icon-image': 'rocket_15'
+                'icon-image': 'rocket-15'
             }
         });
     });

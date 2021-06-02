@@ -16,6 +16,6 @@ prependJs:
 - "import html from './jump-to.html';"
 ---
 
-Use the [`jumpTo` function](https://docs.goong.io/docs/javascript/map/#map#jumpto) to showcase multiple locations.
+Use the [`jumpTo` function](https://docs.goong.io/javascript/map/#map#jumpto) to showcase multiple locations.
 
 {{ <Example html={html} {...this.props} /> }}

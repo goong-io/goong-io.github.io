@@ -16,6 +16,6 @@ prependJs:
 - "import html from './geojson-line.html';"
 ---
 
-Add a GeoJSON line to a map using [`addSource`](https://docs.goong.io/docs/javascript/map/#map#addsource), then style it using [`addLayer`](https://docs.goong.io/docs/javascript/map/#map#addlayer)’s [`paint`](https://docs.goong.io/docs/style-spec/layers/#line) properties.
+Add a GeoJSON line to a map using [`addSource`](https://docs.goong.io/javascript/map/#map#addsource), then style it using [`addLayer`](https://docs.goong.io/javascript/map/#map#addlayer)’s [`paint`](https://docs.goong.io/style-spec/layers/#line) properties.
 
 {{ <Example html={html} {...this.props} /> }}

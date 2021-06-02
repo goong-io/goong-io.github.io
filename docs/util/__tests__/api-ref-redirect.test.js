@@ -11,65 +11,65 @@ it(`api-ref-redirect`, () => {
         redirect({
             hash: '#map'
         })
-    ).toEqual('/docs/javascript/map/#map');
+    ).toEqual('/javascript/map/#map');
 
     expect(
         redirect({
             hash: '#map#scrollzoom'
         })
-    ).toEqual('/docs/javascript/map/#map#scrollzoom');
+    ).toEqual('/javascript/map/#map#scrollzoom');
 
     expect(
         redirect({
             hash: '#map.event:mouseover'
         })
-    ).toEqual('/docs/javascript/map/#map.event:mouseover');
+    ).toEqual('/javascript/map/#map.event:mouseover');
 
     expect(
         redirect({
             hash: '#lnglat'
         })
-    ).toEqual('/docs/javascript/geography/#lnglat');
+    ).toEqual('/javascript/geography/#lnglat');
 
     expect(
         redirect({
             hash: '#icontrol'
         })
-    ).toEqual('/docs/javascript/markers/#icontrol');
+    ).toEqual('/javascript/markers/#icontrol');
 
     expect(
         redirect({
             hash: '#icontrol#getdefaultposition'
         })
-    ).toEqual('/docs/javascript/markers/#icontrol#getdefaultposition');
+    ).toEqual('/javascript/markers/#icontrol#getdefaultposition');
 
     // expect(
     //     redirect({
     //         hash: '#touchpitchhandler#isenabled'
     //     })
-    // ).toEqual('/docs/javascript/handlers/#touchpitchhandler#isenabled');
+    // ).toEqual('/javascript/handlers/#touchpitchhandler#isenabled');
 
     expect(
         redirect({
             hash: '#canvassource#getcanvas'
         })
-    ).toEqual('/docs/javascript/sources/#canvassource#getcanvas');
+    ).toEqual('/javascript/sources/#canvassource#getcanvas');
 
     expect(
         redirect({
             hash: '#mapwheelevent'
         })
-    ).toEqual('/docs/javascript/events/#mapwheelevent');
+    ).toEqual('/javascript/events/#mapwheelevent');
 
     expect(
         redirect({
             hash: '#mapwheelevent#type'
         })
-    ).toEqual('/docs/javascript/events/#mapwheelevent#type');
+    ).toEqual('/javascript/events/#mapwheelevent#type');
 
     // expect(
     //     redirect({
     //         hash: '#clearprewarmedresources'
     //     })
-    // ).toEqual('/docs/javascript/properties/#clearprewarmedresources');
+    // ).toEqual('/javascript/properties/#clearprewarmedresources');
 });

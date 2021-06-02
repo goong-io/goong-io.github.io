@@ -16,6 +16,6 @@ prependJs:
 - "import html from './flyto.html';"
 ---
 
-Use [`flyTo`](https://docs.goong.io/docs/javascript/map/#map#flyto) to smoothly interpolate between locations.
+Use [`flyTo`](https://docs.goong.io/javascript/map/#map#flyto) to smoothly interpolate between locations.
 
 {{ <Example html={html} {...this.props} /> }}

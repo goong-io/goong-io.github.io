@@ -16,6 +16,6 @@ prependJs:
 - "import html from './add-a-marker.html';"
 ---
 
-Add a default [`Marker`](https://docs.goong.io/docs/javascript/markers/#marker) to the map.
+Add a default [`Marker`](https://docs.goong.io/javascript/markers/#marker) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

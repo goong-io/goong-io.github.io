@@ -16,6 +16,6 @@ prependJs:
 - "import html from './canvas-source.html';"
 ---
 
-Add a [`CanvasSource`](https://docs.goong.io/docs/javascript/sources/#canvassource) to the map.
+Add a [`CanvasSource`](https://docs.goong.io/javascript/sources/#canvassource) to the map.
 
 {{ <Example html={html} {...this.props} /> }}

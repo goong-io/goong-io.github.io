@@ -16,6 +16,6 @@ prependJs:
 - "import html from './geojson-polygon.html';"
 ---
 
-Style a polygon with the [fill layer](https://docs.goong.io/docs/style-spec/layers/#fill) type.
+Style a polygon with the [fill layer](https://docs.goong.io/style-spec/layers/#fill) type.
 
 {{ <Example html={html} {...this.props} /> }}

@@ -25,7 +25,7 @@ const addPages = [
     // }
 ];
 
-const siteBasePath = '/docs';
+const siteBasePath = '';
 module.exports = () => {
     const config = {
         siteBasePath: siteBasePath,

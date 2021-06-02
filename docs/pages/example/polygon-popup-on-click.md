@@ -16,6 +16,6 @@ prependJs:
 - "import html from './polygon-popup-on-click.html';"
 ---
 
-When a user clicks a polygon, show a [`Popup`](https://docs.goong.io/docs/javascript/markers/#popup) containing more information.
+When a user clicks a polygon, show a [`Popup`](https://docs.goong.io/javascript/markers/#popup) containing more information.
 
 {{ <Example html={html} {...this.props} /> }}

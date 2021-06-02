@@ -16,6 +16,6 @@ prependJs:
 - "import html from './geojson-layer-in-stack.html';"
 ---
 
-Use the second argument of [`addLayer`](https://docs.goong.io/docs/javascript/map/#map#addlayer), you can be more precise when adding a new layer below labels.
+Use the second argument of [`addLayer`](https://docs.goong.io/javascript/map/#map#addlayer), you can be more precise when adding a new layer below labels.
 
 {{ <Example html={html} {...this.props} /> }}

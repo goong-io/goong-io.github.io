@@ -16,6 +16,6 @@ prependJs:
 - "import html from './wms.html';"
 ---
 
-Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](https://docs.goong.io/docs/javascript/map/#map#addsource)'s [`tiles`](https://docs.goong.io/docs/style-spec/sources/#raster-tiles) option.
+Add an external [Web Map Service raster layer](https://www.ogc.org/standards/wms) to the map using [`addSource`](https://docs.goong.io/javascript/map/#map#addsource)'s [`tiles`](https://docs.goong.io/style-spec/sources/#raster-tiles) option.
 
 {{ <Example html={html} {...this.props} /> }}

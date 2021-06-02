@@ -64,7 +64,7 @@ Tiled sources (vector and raster) must specify their details according to the [T
 ## vector
 
 
-A vector tile source. Tiles must be in [Mapbox Vector Tile format](https://docs.mapbox.com/vector-tiles/). All geometric coordinates in vector tiles must be between `-1 * extent` and `(extent * 2) - 1` inclusive. All layers that use a vector source must specify a [`"source-layer"`](https://docs.goong.io/docs/style-spec/layers/#source-layer) value. For vector tiles hosted by Mapbox, the `"url"` value should be of the form  `mapbox://tilesetid`.
+A vector tile source. Tiles must be in [Mapbox Vector Tile format](https://docs.mapbox.com/vector-tiles/). All geometric coordinates in vector tiles must be between `-1 * extent` and `(extent * 2) - 1` inclusive. All layers that use a vector source must specify a [`"source-layer"`](https://docs.goong.io/style-spec/layers/#source-layer) value. For vector tiles hosted by Mapbox, the `"url"` value should be of the form  `mapbox://tilesetid`.
 
 ```json
 "mapbox-streets": {
@@ -238,7 +238,7 @@ The `"coordinates"` array contains `[longitude, latitude]` pairs for the image c
 ```json
 "image": {
     "type": "image",
-    "url": "https://docs.goong.io/docs/assets/radar.gif",
+    "url": "https://docs.goong.io/assets/radar.gif",
     "coordinates": [
         [-80.425, 46.437],
         [-71.516, 46.437],

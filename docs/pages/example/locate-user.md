@@ -16,6 +16,6 @@ prependJs:
 - "import html from './locate-user.html';"
 ---
 
-Geolocate the user and then track their current location on the map using the [`GeolocateControl`](https://docs.goong.io/docs/javascript/markers/#geolocatecontrol).
+Geolocate the user and then track their current location on the map using the [`GeolocateControl`](https://docs.goong.io/javascript/markers/#geolocatecontrol).
 
 {{ <Example html={html} {...this.props} /> }}

@@ -39,7 +39,7 @@ class PageShell extends React.Component {
     componentDidMount() {
         // redirect hashes on /style-spec/
         if (
-            this.props.location.pathname === '/docs/style-spec/' &&
+            this.props.location.pathname === 'style-spec/' &&
             this.props.location.hash
         ) {
             if (redirectStyleSpec(this.props.location))
@@ -48,7 +48,7 @@ class PageShell extends React.Component {
 
         // redirect hashes on /javascript/
         if (
-            this.props.location.pathname === '/docs/javascript/' &&
+            this.props.location.pathname === 'javascript/' &&
             this.props.location.hash
         ) {
             if (redirectApiRef(this.props.location))
@@ -59,19 +59,19 @@ class PageShell extends React.Component {
         const { location, frontMatter } = this.props;
 
         const subSection = findParentPath(navigation, location.pathname);
-        if (subSection === '/docs/javascript/')
+        if (subSection === 'javascript/')
             return (
                 frontMatter.headings ||
                 apiNavigation.filter((f) => f.path === location.pathname)[0]
                     .subnav
             );
-        else if (subSection === '/docs/style-spec/') {
+        else if (subSection === 'style-spec/') {
             return (
                 styleSpecNavigation.filter(
                     (f) => f.path === location.pathname
                 )[0].subnav || frontMatter.headings
             );
-        } else if (subSection === '/docs/plugins/') {
+        } else if (subSection === 'plugins/') {
             const headings = Object.keys(plugins).reduce((arr, key) => {
                 arr.push({
                     slug: slug(key),
@@ -91,7 +91,7 @@ class PageShell extends React.Component {
             navigation,
             this.props.location.pathname
         );
-        if (subSection === '/docs/javascript/') return <Search />;
+        if (subSection === 'javascript/') return <Search />;
         else return undefined;
     };
     render() {
@@ -113,8 +113,8 @@ class PageShell extends React.Component {
                 >
                     <PageLayout
                         domain={{
-                            title: 'Goong',
-                            path: '/docs'
+                            title: 'Goong Documents',
+                            path: '/'
                         }}
                         hideSearch={true}
                         location={location}

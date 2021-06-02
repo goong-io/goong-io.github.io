@@ -4,7 +4,7 @@
     var map = (window.map = new goongjs.Map({
         container: 'map',
         zoom: 3,
-        center: [105.79449389547807, 21.023262952893536],
+        center: [23.477125089122936, 54.809424416263155],
         style: 'https://tiles.goong.io/assets/goong_map_web.json',
         antialias: true // create the gl context with MSAA antialiasing, so custom layers are antialiased
     }));
@@ -15,7 +15,7 @@
         type: 'custom',
 
         // method called when the layer is added to the map
-        // https://docs.goong.io/docs/javascript/properties/#styleimageinterface#onadd
+        // https://docs.goong.io/javascript/properties/#styleimageinterface#onadd
         onAdd: function (map, gl) {
             // create GLSL source for vertex shader
             var vertexSource =
@@ -83,7 +83,7 @@
         },
 
         // method fired on each animation frame
-        // https://docs.goong.io/docs/javascript/map/#map.event:render
+        // https://docs.goong.io/javascript/map/#map.event:render
         render: function (gl, matrix) {
             gl.useProgram(this.program);
             gl.uniformMatrix4fv(
@@ -102,6 +102,6 @@
 
     // add the custom style layer to the map
     map.on('load', function () {
-        map.addLayer(highlightLayer, 'building');
+        map.addLayer(highlightLayer, 'road-primary');
     });
 </script>

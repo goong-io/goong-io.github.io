@@ -16,6 +16,6 @@ prependJs:
 - "import html from './live-geojson.html';"
 ---
 
-Use realtime GeoJSON data streams to move a [`symbol`](https://docs.goong.io/docs/style-spec/layers/#symbol) on your map.
+Use realtime GeoJSON data streams to move a [`symbol`](https://docs.goong.io/style-spec/layers/#symbol) on your map.
 
 {{ <Example html={html} {...this.props} /> }}

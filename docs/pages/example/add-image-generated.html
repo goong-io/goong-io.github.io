@@ -4,7 +4,9 @@
     goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
     var map = new goongjs.Map({
         container: 'map',
-        style: 'https://tiles.goong.io/assets/goong_map_web.json'
+        style: 'https://tiles.goong.io/assets/goong_map_web.json',
+        center: [105.8351, 21.02917],
+        zoom: 14
     });
 
     map.on('load', function () {
@@ -33,7 +35,7 @@
                         'type': 'Feature',
                         'geometry': {
                             'type': 'Point',
-                            'coordinates': [0, 0]
+                            'coordinates': [105.8351, 21.02917]
                         }
                     }
                 ]

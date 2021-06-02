@@ -11,7 +11,7 @@
     map.on('load', function () {
         // Add an image to use as a custom marker
         map.loadImage(
-            'https://docs.goong.io/docs/assets/custom_marker.png',
+            'https://docs.goong.io/assets/custom_marker.png',
             function (error, image) {
                 if (error) throw error;
                 map.addImage('custom-marker', image);
@@ -59,10 +59,7 @@
                         'icon-image': 'custom-marker',
                         // get the title name from the source's "title" property
                         'text-field': ['get', 'title'],
-                        'text-font': [
-                            'Open Sans Semibold',
-                            'Arial Unicode MS Bold'
-                        ],
+                        'text-font': ['Roboto Regular'],
                         'text-offset': [0, 1.25],
                         'text-anchor': 'top'
                     }

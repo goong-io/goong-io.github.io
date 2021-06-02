@@ -1,10 +1,10 @@
 {
-  "name": "docs",
+  "name": "goong-io.github.io",
   "description": "Goong documentation website",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/goong-io/docs.git"
+    "url": "git@github.com:goong-io/goong-io.github.io.git"
   },
   "engines": {
     "node": ">=12"
@@ -102,7 +102,7 @@
   },
   "jest": {
     "testPathIgnorePatterns": [
-      "/goong-gl-js/"
+      "/goong-js/"
     ],
     "transformIgnorePatterns": [
       "/node_modules\\/(?!(maplibre-gl-style-spec))/"

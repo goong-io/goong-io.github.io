@@ -18,29 +18,31 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/docs/style-spec/light/">light</a>
+                        <a href="/style-spec/light/">light</a>
                     </span>
                 );
             case 'transition':
                 return (
                     <span>
                         {' '}
-                        <a href="/docs/style-spec/transition/">transition</a>
+                        <a href="/style-spec/transition/">transition</a>
                     </span>
                 );
             case 'sources':
                 return (
                     <span>
                         {' '}
-                        object with{' '}
-                        <a href="/docs/style-spec/sources/">source</a> values
+                        object with <a href="/style-spec/sources/">
+                            source
+                        </a>{' '}
+                        values
                     </span>
                 );
             case 'layer':
                 return (
                     <span>
                         {' '}
-                        <a href="/docs/style-spec/layers/">
+                        <a href="/style-spec/layers/">
                             layer
                             {plural && 's'}
                         </a>
@@ -50,7 +52,7 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/docs/style-spec/types/#array">array</a>
+                        <a href="/style-spec/types/#array">array</a>
                         {spec.value && (
                             <span>
                                 {' '}
@@ -69,7 +71,7 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/docs/style-spec/expressions/">
+                        <a href="/style-spec/expressions/">
                             expression
                             {plural && 's'}
                         </a>
@@ -79,25 +81,21 @@ export default class Item extends React.Component {
                 return (
                     <span>
                         {' '}
-                        <a href="/docs/style-spec/layers/#layout-property">
-                            layout
-                        </a>
+                        <a href="/style-spec/layers/#layout-property">layout</a>
                     </span>
                 );
             case 'paint':
                 return (
                     <span>
                         {' '}
-                        <a href="/docs/style-spec/layers/#paint-property">
-                            paint
-                        </a>
+                        <a href="/style-spec/layers/#paint-property">paint</a>
                     </span>
                 );
             default:
                 return (
                     <span>
                         {' '}
-                        <a href={`/docs/style-spec/types/#${spec.type}`}>
+                        <a href={`/style-spec/types/#${spec.type}`}>
                             {spec.type}
                             {plural && 's'}
                         </a>
@@ -156,7 +154,7 @@ export default class Item extends React.Component {
                 <Subtitle>
                     {this.props.kind === 'paint' && (
                         <React.Fragment>
-                            <a href="/docs/style-spec/layers/#paint-property">
+                            <a href="/style-spec/layers/#paint-property">
                                 Paint
                             </a>{' '}
                             property.{' '}
@@ -164,7 +162,7 @@ export default class Item extends React.Component {
                     )}
                     {this.props.kind === 'layout' && (
                         <React.Fragment>
-                            <a href="/docs/style-spec/layers/#layout-property">
+                            <a href="/style-spec/layers/#layout-property">
                                 Layout
                             </a>{' '}
                             property.{' '}
@@ -247,7 +245,7 @@ export default class Item extends React.Component {
                                     'feature-state'
                                 ) && (
                                     <em className="color-gray">
-                                        <a href="/docs/style-spec/expressions/#feature-state">
+                                        <a href="/style-spec/expressions/#feature-state">
                                             <Icon
                                                 name="combine"
                                                 inline={true}
@@ -262,7 +260,7 @@ export default class Item extends React.Component {
                                     ) &&
                                     ' and '}
                                 {this.props.expression.interpolated && (
-                                    <a href="/docs/style-spec/expressions/#interpolate">
+                                    <a href="/style-spec/expressions/#interpolate">
                                         <Icon
                                             name="smooth-ramp"
                                             inline={true}
