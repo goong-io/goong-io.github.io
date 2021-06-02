@@ -1,6 +1,6 @@
 ---
 title: Rest API
-description: Extend your Goong GL JS map with plugins.
+description: Goong REST API is a drop-in replacement for Google Maps API, only endpoint and API-key change necessary. Request and Response format same as Google Maps.
 contentType: example
 language:
 - JavaScript
@@ -10,6 +10,12 @@ hideFeedback: true # hide feedback from page
 products:
 - Documentation
 ---
+
+- `Directions`
+- `Distance Matrix`
+- `Places`
+- `Geocoding`
+- `Static Map`  
 ---
 
 *Goong REST API is a drop-in replacement for Google Maps API, only endpoint and API-key change necessary. Request and Response format same as Google Maps.*

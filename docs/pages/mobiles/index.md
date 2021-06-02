@@ -1,6 +1,6 @@
 ---
 title: Mobile libraries
-description: Goong mobile libraries.
+description: Learn how to integrate GoongMaps to your mobile applications.
 contentType: example
 language:
 - JavaScript
@@ -11,7 +11,7 @@ products:
 - Documentation
 ---
 
-Goong use Mapbox mobile libraries to provide map elements for your applications.
+Goong use Mapbox based mobile libraries to provide map elements for your applications.
 ## Installation guide and documentation:
 - [iOS](https://docs.mapbox.com/ios/maps/guides/install/)
 - [Android](https://docs.mapbox.com/android/maps/guides/install/)
@@ -88,4 +88,4 @@ export default class App extends Component {
   }
 }
 ```
-See [MapView API](https://github.com/react-native-mapbox-gl/maps/blob/master/docs/MapView.md)
+See [React Native MapView API](https://github.com/react-native-mapbox-gl/maps/blob/master/docs/MapView.md)

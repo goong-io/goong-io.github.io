@@ -1,6 +1,6 @@
 ---
-title: Direction
-id: direction
+title: Directions
+id: directions
 description: Direction from A to B.
 contentType: specification
 order: 1

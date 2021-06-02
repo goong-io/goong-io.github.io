@@ -1,6 +1,6 @@
 ---
-title: Geocode
-id: Geocode
+title: Geocoding
+id: Geocoding
 description: Goong Geocoding API.
 contentType: specification
 order: 4

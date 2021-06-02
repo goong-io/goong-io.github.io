@@ -20,7 +20,6 @@ overviewHeader:
     - "Custom map styles"
     - "Fast vector maps"
     - "Compatible with other Goong tools"
-  changelogLink: "https://github.com/goong-io/goong-js/blob/main/CHANGELOG.md"
   ghLink: "https://github.com/goong-io/goong-js"
   image: simple-map
   # version="" version is set dynamically in page-shell.js

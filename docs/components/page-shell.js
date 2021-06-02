@@ -114,7 +114,7 @@ class PageShell extends React.Component {
                     <PageLayout
                         domain={{
                             title: 'Goong',
-                            path: 'https://docs.goong.io/'
+                            path: '/docs'
                         }}
                         hideSearch={true}
                         location={location}
