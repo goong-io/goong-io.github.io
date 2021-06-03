@@ -23,14 +23,14 @@
     var map = new goongjs.Map({
         container: 'map',
         style: 'https://tiles.goong.io/assets/goong_map_web.json',
-        center: [0, 0],
-        zoom: 2
+        center: [105.8344898123422, 21.03677130693113],
+        zoom: 14
     });
 
     var marker = new goongjs.Marker({
         draggable: true
     })
-        .setLngLat([0, 0])
+        .setLngLat([105.8344898123422, 21.03677130693113])
         .addTo(map);
 
     function onDragEnd() {

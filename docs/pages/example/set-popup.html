@@ -1,6 +1,6 @@
 <style>
     #marker {
-        background-image: url('https://docs.goong.io/assets/washington-monument.jpg');
+        background-image: url('https://i.ytimg.com/vi/e75CcUphFRs/maxresdefault.jpg');
         background-size: cover;
         width: 50px;
         height: 50px;
@@ -16,18 +16,18 @@
 <div id="map"></div>
 
 <script>
-    var monument = [-77.0353, 38.8895];
+    var mausoleum = [105.8346667, 21.0368973];
     goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
     var map = new goongjs.Map({
         container: 'map',
         style: 'https://tiles.goong.io/assets/goong_map_web.json',
-        center: monument,
+        center: mausoleum,
         zoom: 15
     });
 
     // create the popup
     var popup = new goongjs.Popup({ offset: 25 }).setText(
-        'Construction on the Washington Monument began in 1848.'
+        'The President Ho Chi Minh Mausoleum is a mausoleum which serves as the resting place of Vietnamese Revolutionary leader & President Ho Chi Minh in Hanoi, Vietnam'
     );
 
     // create DOM element for the marker
@@ -36,7 +36,7 @@
 
     // create the marker
     new goongjs.Marker(el)
-        .setLngLat(monument)
+        .setLngLat(mausoleum)
         .setPopup(popup) // sets a popup on this marker
         .addTo(map);
 </script>
