@@ -40,7 +40,7 @@
                 },
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-77.038659, 38.931567]
+                    'coordinates': [105.79998778336434, 21.01402924595785]
                 }
             },
             {
@@ -50,7 +50,7 @@
                 },
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-77.003168, 38.894651]
+                    'coordinates': [105.80844779933346, 21.017413597514967]
                 }
             },
             {
@@ -60,7 +60,7 @@
                 },
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-77.090372, 38.881189]
+                    'coordinates': [105.82352901021386, 21.01464195668537]
                 }
             },
             {
@@ -70,7 +70,7 @@
                 },
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-77.052477, 38.943951]
+                    'coordinates': [105.80997267336716, 21.002605417767967]
                 }
             },
             {
@@ -80,7 +80,7 @@
                 },
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-77.031706, 38.914581]
+                    'coordinates': [105.81375070070531, 21.010416584945258]
                 }
             },
             {
@@ -90,7 +90,7 @@
                 },
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-77.020945, 38.878241]
+                    'coordinates': [105.80842283412754, 21.006449448058355]
                 }
             },
             {
@@ -100,7 +100,7 @@
                 },
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-77.007481, 38.876516]
+                    'coordinates': [105.80123537896272, 21.002594218806486]
                 }
             }
         ]
@@ -112,8 +112,8 @@
     var map = new goongjs.Map({
         container: 'map',
         style: 'https://tiles.goong.io/assets/goong_map_web.json',
-        center: [-77.04, 38.907],
-        zoom: 11.15
+        center: [105.80123537896272, 21.002594218806486],
+        zoom: 13
     });
 
     map.on('load', function () {
@@ -134,13 +134,10 @@
                     'type': 'symbol',
                     'source': 'places',
                     'layout': {
-                        'icon-image': symbol + '_15',
+                        'icon-image': symbol + '-15',
                         'icon-allow-overlap': true,
                         'text-field': symbol,
-                        'text-font': [
-                            'Open Sans Bold',
-                            'Arial Unicode MS Bold'
-                        ],
+                        'text-font': ['Roboto Regular'],
                         'text-size': 11,
                         'text-transform': 'uppercase',
                         'text-letter-spacing': 0.05,
