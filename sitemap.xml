@@ -52,13 +52,13 @@
         <loc>https://docs.goong.io/example/add-image-generated</loc>
     </url>
     <url>
+        <loc>https://docs.goong.io/example/add-image-missing-generated</loc>
+    </url>
+    <url>
         <loc>https://docs.goong.io/example/add-image-stretchable</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/example/animate-a-line</loc>
-    </url>
-    <url>
-        <loc>https://docs.goong.io/example/add-image-missing-generated</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/example/animate-camera-around-point</loc>
