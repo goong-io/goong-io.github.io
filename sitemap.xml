@@ -16,10 +16,10 @@
         <loc>https://docs.goong.io/mobiles</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/plugins</loc>
+        <loc>https://docs.goong.io/overview</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/overview</loc>
+        <loc>https://docs.goong.io/plugins</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/rest</loc>
@@ -272,6 +272,9 @@
     </url>
     <url>
         <loc>https://docs.goong.io/example/set-popup</loc>
+    </url>
+    <url>
+        <loc>https://docs.goong.io/example/setstyle</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/example/simple-map</loc>
