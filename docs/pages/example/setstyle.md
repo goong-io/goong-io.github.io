@@ -1,6 +1,6 @@
 ---
 title: Change a map's style
-description: Change a map's style.
+description: Change style of the map.
 topics:
   - Styles
 thumbnail: setstyle
@@ -18,7 +18,7 @@ prependJs:
 
 This example adds a clickable interface that enables a user to apply several different styles to the map.
 
-When the user clicks a style name, it uses setStyle to redraw the map using the style URL associated with that option.
+When the user clicks a style name, it uses `setStyle` to redraw the map using the style URL associated with that option.
 
 The map is centered at `21.03194,105.85315` near `Hồ Hoàn Kiếm, Hà Nội, Việt Nam`.
 

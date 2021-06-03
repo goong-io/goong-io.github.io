@@ -32,7 +32,7 @@ To get started with Goong JS or any of our other building blocks, [get your own 
 
 ## Migration Note
 
-We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/docs/issues) on GitHub or submit a [pull request](https://github.com/goong-io/docs/pulls) to propose directly your changes.
+We are now migrating this documentation from Mapbox to Goong. If you want to contribute feel free to open an [issue](https://github.com/goong-io/goong-io.github.io/issues) on GitHub or submit a [pull request](https://github.com/goong-io/goong-io.github.io/pulls) to propose directly your changes.
 
 
 ## Quickstart

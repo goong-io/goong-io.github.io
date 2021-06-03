@@ -1,5 +1,5 @@
 const test = require('tape');
-const redirect = require('../util/style-spec-redirect.js');
+const redirect = require('../docs/util/style-spec-redirect.js');
 
 test(`style-spec-redirect`, (t) => {
     t.equal(
