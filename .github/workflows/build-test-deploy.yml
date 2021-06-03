@@ -19,7 +19,7 @@ jobs:
     - run: npm run build
     - run: npm run test
     - run: cp _config.yml _site 
-    - run: cp _site/index.html _site/404.html
+    - run: cp 404.html _site/404.html
     - run: cp CNAME _site
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.0
