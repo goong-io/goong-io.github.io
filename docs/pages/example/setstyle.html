@@ -1,0 +1,67 @@
+<body>
+    <style>
+        #menu {
+            position: absolute;
+            background: #efefef;
+            padding: 10px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+
+    <div id="map"></div>
+
+    <div id="menu">
+        <!-- See a list of Goong-hosted public styles at -->
+        <!-- https://docs.goong.io/style-spec/#available-styles -->
+        <input
+            id="light"
+            type="radio"
+            name="rtoggle"
+            value="https://tiles.goong.io/assets/goong_map_web.json"
+            checked="checked"
+        />
+        <label for="light">Light</label>
+        <input
+            id="dark"
+            type="radio"
+            name="rtoggle"
+            value="https://tiles.goong.io/assets/goong_map_dark.json"
+        />
+        <label for="dark">Dark</label>
+        <input
+            id="nav_day"
+            type="radio"
+            name="rtoggle"
+            value="https://tiles.goong.io/assets/navigation_day.json"
+        />
+        <label for="nav_day">Navigation Day</label>
+        <input
+            id="nav_night"
+            type="radio"
+            name="rtoggle"
+            value="https://tiles.goong.io/assets/navigation_night.json"
+        />
+        <label for="nav_night">Navigation Night</label>
+    </div>
+    <script>
+        goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
+        var map = new goongjs.Map({
+            container: 'map', // container ID
+            style: 'https://tiles.goong.io/assets/goong_map_web.json', // style URL
+            center: [105.85315, 21.03194], // starting position [lng, lat]
+            zoom: 13 // starting zoom
+        });
+
+        var layerList = document.getElementById('menu');
+        var inputs = layerList.getElementsByTagName('input');
+
+        function switchLayer(layer) {
+            var styleURL = layer.target.value;
+            map.setStyle(styleURL);
+        }
+
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].onclick = switchLayer;
+        }
+    </script>
+</body>

@@ -4,12 +4,12 @@
     var map = new goongjs.Map({
         container: 'map',
         style: 'https://tiles.goong.io/assets/goong_map_web.json',
-        center: [-96, 37.8],
-        zoom: 3
+        center: [105.85151, 21.02659],
+        zoom: 10
     });
 
     var popup = new goongjs.Popup({ closeOnClick: false })
-        .setLngLat([-96, 37.8])
+        .setLngLat([105.85151, 21.02659])
         .setHTML('<h1>Hello World!</h1>')
         .addTo(map);
 </script>
