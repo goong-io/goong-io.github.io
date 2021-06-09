@@ -27,8 +27,7 @@ overviewHeader:
 
 
 
-Goong JS is a JavaScript library for interactive, customizable vector maps on the web. It is part of the [Goong GL ecosystem](https://github.com/goong-io).  
-If you are using React, use [@goongmaps/goong-map-react](https://docs.goong.io/goong-map-react)  
+Goong JS is a JavaScript library for interactive, customizable vector maps on the web. It is part of the [Goong GL ecosystem](https://github.com/goong-io).
 To get started with Goong JS or any of our other building blocks, [get your own API key](https://account.goong.io/).
 
 ## Migration Note
