@@ -32,7 +32,7 @@ Method: `GET`
 Example request
 {{
   <Copyable lang="javascript">{`
-  $ curl "https://rsapi.goong.io/Place/AutoComplete?api_key={YOUR_API_KEY}&latlng=21.013715429594125,%20105.79829597455202&input=91%20Trung%20Kinh"  
+  $ curl "https://rsapi.goong.io/Place/AutoComplete?api_key={YOUR_API_KEY}&location=21.013715429594125,%20105.79829597455202&input=91%20Trung%20Kinh"  
   `}</Copyable>
 }}
 
