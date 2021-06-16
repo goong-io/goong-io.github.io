@@ -15,13 +15,13 @@ Goong uses API key to associate API requests with your account. You can find you
 ## How to use Goong API Key
 
 Goong provides two types of API Keys:
-- **Maptiles key for using of Map view**
+- **Map tiles key for using of Map view**
 - **REST API Key for using of all REST APIs**
 
 Screenshot:  
-![Create Goong API KEY](/assets/goong_create_api_key-500.png)
+![Create Goong API KEY](https://docs.goong.io/assets/goong_create_api_key-500.png)
 
-For example: If you want to display a mapview with [goong-js](/javascript), you should create a Maptiles key.  
+For example: If you want to display a mapview with [goong-js](https://docs.goong.io/javascript), you should create a Map tiles key.  
 Then provide your key like below:
 ```javascript
 goongjs.accessToken = 'your maptiles key here';

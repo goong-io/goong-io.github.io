@@ -22,7 +22,7 @@ products:
 ---
 To get started with Goong REST APIs, [get your own API key](https://account.goong.io)
 
-All APIs require `api_key` parameter. To read more about API Key, see our [documentation](/rest/api-key).
+All APIs require `api_key` parameter. To read more about API Key, see our [documentation](https://docs.goong.io/rest/api-key).
 
 Or visit our [API Inspector](https://inspector.goong.io)
 
