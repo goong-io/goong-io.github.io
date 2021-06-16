@@ -19,7 +19,7 @@ Goong provides two types of API Keys:
 - **REST API Key for using of all REST APIs**
 
 Screenshot:  
-![Create Goong API KEY](https://docs.goong.io/assets/goong_create_api_key-500.png)
+![Create Goong API KEY](https://docs.goong.io/assets/goong_create_api_key.png)
 
 For example: If you want to display a mapview with [goong-js](https://docs.goong.io/javascript), you should create a Map tiles key.  
 Then provide your key like below:
