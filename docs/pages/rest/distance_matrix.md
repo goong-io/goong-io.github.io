@@ -1,9 +1,9 @@
 ---
 title: Distance Matrix
 id: DistanceMatrix
-description: Get matrix of travel distances from multiple origins to multiple destinations. 
-contentType: specification
-order: 2
+description: Goong Distance Matrix API.
+contentType: API
+order: 3
 layout: page
 hideFeedback: true
 products:

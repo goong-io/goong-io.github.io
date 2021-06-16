@@ -1,7 +1,7 @@
 ---
 title: Mobile libraries
 description: Learn how to integrate GoongMaps to your mobile applications.
-contentType: example
+contentType: API
 language:
 - JavaScript
 navOrder: 2

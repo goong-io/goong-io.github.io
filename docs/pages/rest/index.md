@@ -1,7 +1,7 @@
 ---
 title: Rest API
 description: Goong REST API is a drop-in replacement for Google Maps API, only endpoint and API-key change necessary. Request and Response format same as Google Maps.
-contentType: example
+contentType: API
 language:
 - JavaScript
 navOrder: 3
@@ -10,7 +10,6 @@ hideFeedback: true # hide feedback from page
 products:
 - Documentation
 ---
-
 - `Directions`
 - `Distance Matrix`
 - `Places`
@@ -21,11 +20,11 @@ products:
 *Goong REST API is a drop-in replacement for Google Maps API, only endpoint and API-key change necessary. Request and Response format same as Google Maps.*
 
 ---
-To get started with Goong REST API, [get your own API key](https://account.goong.io)
+To get started with Goong REST APIs, [get your own API key](https://account.goong.io)
 
-REST API use `api_key` parameter for all APIs
+All APIs require `api_key` parameter. To read more about API Key, see our [documentation](/rest/api-key).
 
-Visit our [API Inspector](https://inspector.goong.io)
+Or visit our [API Inspector](https://inspector.goong.io)
 
 ## Hostname
 
@@ -33,10 +32,5 @@ Visit our [API Inspector](https://inspector.goong.io)
 https://rsapi.goong.io/
 ```
 
-## Parameters need for all
-
-```
-api_key={your_api_key}
-```
 ## Pricing
 Use of the REST API is billed by API requests. For more details, see the [API pricing page](https://goong.io/full-pricing).

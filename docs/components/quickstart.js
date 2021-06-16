@@ -22,7 +22,7 @@ class Quickstart extends React.Component {
         const cdnMapHtml = `
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
-goongjs.accessToken = 'your access token here';
+goongjs.accessToken = 'your maptiles key here';
 var map = new goongjs.Map(${this.mapOptions});
 </script>`;
         return (
@@ -48,7 +48,7 @@ var map = new goongjs.Map(${this.mapOptions});
     renderBundler() {
         const bundlerMapJs = `
 import goongjs from 'goong-js'; // or "const goongjs = require('goong-js');"
-goongjs.accessToken = 'your access token here';
+goongjs.accessToken = 'your maptiles key here';
 const map = new goongjs.Map(${this.mapOptions});`;
         return (
             <div id="quickstart-bundler">

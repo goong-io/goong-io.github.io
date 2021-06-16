@@ -2,8 +2,8 @@
 title: Places
 id: places
 description: Goong Places API.
-contentType: specification
-order: 3
+contentType: API
+order: 4
 layout: page
 hideFeedback: true
 products:

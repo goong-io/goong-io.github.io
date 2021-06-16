@@ -2,8 +2,8 @@
 title: Static Map
 id: StaticMap
 description: Goong Static Map API.
-contentType: specification
-order: 5
+contentType: API
+order: 6
 layout: page
 hideFeedback: true
 products:

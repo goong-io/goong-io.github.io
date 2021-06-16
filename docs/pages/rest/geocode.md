@@ -2,8 +2,8 @@
 title: Geocoding
 id: Geocoding
 description: Goong Geocoding API.
-contentType: specification
-order: 4
+contentType: API
+order: 5
 layout: page
 hideFeedback: true
 products:

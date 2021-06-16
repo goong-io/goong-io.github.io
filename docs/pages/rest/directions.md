@@ -1,9 +1,9 @@
 ---
 title: Directions
 id: directions
-description: Direction from A to B.
-contentType: specification
-order: 1
+description: Goong Directions API.
+contentType: API
+order: 2
 layout: page
 hideFeedback: true
 products:
