@@ -331,7 +331,10 @@
         <loc>https://docs.goong.io/javascript/sources</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/rest/direction</loc>
+        <loc>https://docs.goong.io/rest/api-key</loc>
+    </url>
+    <url>
+        <loc>https://docs.goong.io/rest/directions</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/rest/distance_matrix</loc>
@@ -344,9 +347,6 @@
     </url>
     <url>
         <loc>https://docs.goong.io/rest/staticmap</loc>
-    </url>
-    <url>
-        <loc>https://docs.goong.io/rest/statuscode</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/style-spec/expressions</loc>
