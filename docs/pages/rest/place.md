@@ -22,12 +22,13 @@ URL: `/Place/AutoComplete`
 
 Method: `GET`
 
-| Param      | Description                                                                        | Example                |
-|------------|------------------------------------------------------------------------------------|------------------------|
-| `input`    | Your search keyword (Required)                                                     | `ho hoan kiem`         |
-| `location` | Coordinates for location biased search                                             | `20.981971,105.864323` |
-| `limit`    | Limit number of results. Defaults to `10`                                          | `20`                   |
-| `radius`   | Limits Search to a radius from specified location (in km). Defaults to `50`  | `2000`                 |
+| Param          | Description                                                                                                                                   | Example                                |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| `input`        | Your search keyword (Required)                                                                                                                | `ho hoan kiem`                         |
+| `location`     | Coordinates for location biased search                                                                                                        | `20.981971,105.864323`                 |
+| `limit`        | Limit number of results. Defaults to `10`                                                                                                     | `20`                                   |
+| `radius`       | Limits Search to a radius from specified location (in km). Defaults to `50`                                                                   | `2000`                                 |
+| `sessiontoken` | Your generated token to group multiple Autocomplete requests in 1 session. We recommend using a version 4 UUID for session tokens. (Optional) | `a68dfa01-a5aa-47d1-aaa7-a3184896b283` |
 
 Example request
 {{
