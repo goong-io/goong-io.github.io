@@ -36,7 +36,7 @@
             .then(function (response) {
                 var directions = response.body;
                 var route = directions.routes[0];
-                console.log(route);
+
                 var geometry_string = route.overview_polyline.points;
                 var geoJSON = polyline.toGeoJSON(geometry_string);
                 map.addSource('route', {
