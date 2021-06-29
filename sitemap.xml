@@ -4,16 +4,16 @@
         <loc>https://docs.goong.io/</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/examples</loc>
-    </url>
-    <url>
         <loc>https://docs.goong.io/example</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/mobiles</loc>
+        <loc>https://docs.goong.io/examples</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/javascript</loc>
+    </url>
+    <url>
+        <loc>https://docs.goong.io/mobiles</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/overview</loc>
@@ -128,6 +128,9 @@
     </url>
     <url>
         <loc>https://docs.goong.io/example/drag-a-point</loc>
+    </url>
+    <url>
+        <loc>https://docs.goong.io/example/draw-route-line</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/example/fallback-image</loc>
