@@ -14,6 +14,8 @@
     "globals": {
       "GoongGeocoder": true,
       "goong-js": true,
+      "goongSdk": true,
+      "polyline": true,
       "goongjs": true,
       "MapboxGeocoder": true,
       "MapboxDirections": true,
