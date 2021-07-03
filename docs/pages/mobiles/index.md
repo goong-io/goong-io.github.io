@@ -16,6 +16,7 @@ Goong use Mapbox based mobile libraries to provide map elements for your applica
 - [iOS](https://docs.mapbox.com/ios/maps/guides/install/)
 - [Android](https://docs.mapbox.com/android/maps/guides/install/)
 - [React Native](https://github.com/react-native-mapbox-gl/maps/)
+- [Flutter](https://github.com/tobrun/flutter-mapbox-gl)
 ## Goong Styles
 We provide following style URLs:
 - Light
@@ -89,3 +90,6 @@ export default class App extends Component {
 }
 ```
 See [React Native MapView API](https://github.com/react-native-mapbox-gl/maps/blob/master/docs/MapView.md)
+
+### Flutter
+See [Map Styles](https://github.com/tobrun/flutter-mapbox-gl#map-styles)

@@ -9,24 +9,14 @@
         container: 'map', // container id
         style: 'https://tiles.goong.io/assets/goong_map_web.json', // stylesheet location
         center: [9.49, 49.01], // starting position [lng, lat]
-        zoom: 4 // starting zoom
+        zoom: 1 // starting zoom
     });
 
     map.on('load', function () {
-        map.setLayoutProperty('label_country', 'text-field', [
+        map.setLayoutProperty('place-country-1', 'text-field', [
             'format',
-            ['get', 'name_en'],
-            { 'font-scale': 1.2 },
-            '\n',
-            {},
-            ['get', 'name'],
-            {
-                'font-scale': 0.8,
-                'text-font': [
-                    'literal',
-                    ['DIN Offc Pro Italic', 'Arial Unicode MS Regular']
-                ]
-            }
+            ['get', 'cntry_name'],
+            { 'font-scale': 1.5 }
         ]);
     });
 </script>

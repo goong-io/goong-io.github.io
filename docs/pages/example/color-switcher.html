@@ -134,7 +134,15 @@
         var swatch = document.createElement('button');
         swatch.style.backgroundColor = color;
         swatch.addEventListener('click', function () {
-            map.setPaintProperty(layer.value, 'fill-color', color);
+            if (layer.value == 'buildings') {
+                map.setPaintProperty(
+                    layer.value,
+                    'fill-extrusion-color',
+                    color
+                );
+            } else {
+                map.setPaintProperty(layer.value, 'fill-color', color);
+            }
         });
         swatches.appendChild(swatch);
     });
