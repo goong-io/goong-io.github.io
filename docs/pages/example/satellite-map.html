@@ -1,11 +1,38 @@
 <div id="map"></div>
 <script>
+    var style = {
+        'version': 8,
+        'name': 'Satellite Style',
+        'sources': {
+            'mapbox': {
+                'type': 'raster',
+                'url': 'https://api.mapbox.com/v4/mapbox.satellite.json?secure&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA',
+                'tileSize': 256
+            }
+        },
+        'center': [0, 0],
+        'zoom': 0,
+        'layers': [
+            {
+                'id': 'background',
+                'type': 'background',
+                'paint': {
+                    'background-color': 'rgb(4,7,14)'
+                }
+            },
+            {
+                'id': 'satellite',
+                'type': 'raster',
+                'source': 'mapbox',
+                'source-layer': 'mapbox_satellite_full'
+            }
+        ]
+    };
     goongjs.accessToken = '8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6';
     var map = new goongjs.Map({
         container: 'map',
-        zoom: 9,
-        center: [137.9150899566626, 36.25956997955441],
-        style:
-            'https://api.maptiler.com/maps/hybrid/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL'
+        zoom: 12,
+        center: [105.8379, 21.03606],
+        style: style
     });
 </script>

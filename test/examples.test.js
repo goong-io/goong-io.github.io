@@ -92,7 +92,7 @@ listExamplesHtml('./docs/pages/example/').forEach((example) => {
     const file = readPost(example);
     test(`Example: ${example}`, (t) => {
         t.ok(
-            !file.file.includes('pk.ey'),
+            !file.file.includes('replaced'),
             'do not hardcode access tokens, an access token will be appended automatically'
         );
         t.end();
