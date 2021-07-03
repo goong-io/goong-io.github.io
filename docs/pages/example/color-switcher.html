@@ -134,7 +134,7 @@
         var swatch = document.createElement('button');
         swatch.style.backgroundColor = color;
         swatch.addEventListener('click', function () {
-            if (layer.value == 'buildings') {
+            if (layer.value === 'buildings') {
                 map.setPaintProperty(
                     layer.value,
                     'fill-extrusion-color',
