@@ -55,6 +55,9 @@ You can see the use statistics for all your tokens, for any specified period, on
 
 
 ## Rate limit
-***By default, an account has a free amount of $100 each month, each API Key has a rate limit of 1000 requests per day, 5 requests per second per IP address.***  
+***By default, an account has a free amount of $100 each month***  
+- REST API Key limit is 1000 requests per day, 5 requests per second per IP address, 
+- Maptiles Key limit is 30000 request per month, 500 requests per second per IP address.
+
 If you exceed this rate limit, your request will be throttled and you will receive a `HTTP 429 Too Many Requests` response from the API.  
 If you need a rate limit that is higher than the default, see our [Pricing Plans](https://goong.io/payment) or [contact us](mailto:support@goong.io)
