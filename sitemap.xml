@@ -10,6 +10,9 @@
         <loc>https://docs.goong.io/examples</loc>
     </url>
     <url>
+        <loc>https://docs.goong.io/help</loc>
+    </url>
+    <url>
         <loc>https://docs.goong.io/javascript</loc>
     </url>
     <url>
@@ -55,10 +58,10 @@
         <loc>https://docs.goong.io/example/add-image-missing-generated</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/example/animate-a-line</loc>
+        <loc>https://docs.goong.io/example/add-image-stretchable</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/example/add-image-stretchable</loc>
+        <loc>https://docs.goong.io/example/animate-a-line</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/example/animate-camera-around-point</loc>
