@@ -20,6 +20,10 @@ Goong use Mapbox based mobile libraries to provide map elements for your applica
 ## Goong Styles
 We provide following style URLs:
 - Light
+```html
+https://tiles.goong.io/assets/goong_light_v2.json
+```
+- Street
 ```
 https://tiles.goong.io/assets/goong_map_web.json
 ```
