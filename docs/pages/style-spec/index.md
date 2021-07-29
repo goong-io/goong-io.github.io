@@ -26,6 +26,10 @@ The intended audience of this specification includes:
 ## Available styles
 - **Light**
 ```html
+https://tiles.goong.io/assets/goong_light_v2.json
+```
+- **Street**
+```html
 https://tiles.goong.io/assets/goong_map_web.json
 ```
 - **Dark**
