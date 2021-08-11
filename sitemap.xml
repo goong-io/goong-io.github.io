@@ -289,6 +289,9 @@
         <loc>https://docs.goong.io/example/timeline-animation</loc>
     </url>
     <url>
+        <loc>https://docs.goong.io/example/toggle-interaction-handlers</loc>
+    </url>
+    <url>
         <loc>https://docs.goong.io/example/using-featuresin</loc>
     </url>
     <url>
@@ -308,9 +311,6 @@
     </url>
     <url>
         <loc>https://docs.goong.io/example/zoomto-linestring</loc>
-    </url>
-    <url>
-        <loc>https://docs.goong.io/example/toggle-interaction-handlers</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/javascript/events</loc>
