@@ -17,22 +17,8 @@ prependJs:
 
 {{<Help />}}
 
-## Vector tiles API
-The **Goong Vector Tiles API** serves vector tiles. Each API request results in a single tile from a vector tileset. Vector Tiles API requests are typically made as a series of requests used to render a map using a Goong GL map library.
-
-A sample Vector Tiles API request looks like:
-```
-https://tiles.goong.io/tiles/composite/13/6503/3606.pbf?api_key=8qzxZAuxcsctSlmOszInchP1A5GrmRBHJwCBCjO6
-```
-
-### Goong Vector tiles API versus Google Map Loads
-Goong Vector Tiles API is different from Google Map Loads. A map load is counted when a map is initialized on a webpage. User interaction with a map after it has loaded (eg. panning the map, zooming the map) does not have any impact on usage limits.  
-Averagely, a map load equals to ~100 vector tiles API requests.  
-{{
-    <Note>
-        <p>Web maps using Goong JS or any other mobile applications are billed by Goong Vector Tiles API requests</p>
-    </Note>
-}}
+## Mapload
+A map load is counted when a map is initialized on a webpage. User interaction with a map after it has loaded (eg. panning the map, zooming the map) does not have any impact on usage limits.  
 
 ## Autocomplete Session
 An Autocomplete session includes some Autocomplete requests (to retrieve suggestions on a place as the user types), and at most one Places Details request (to retrieve details about the place selected by the user). The same session token is passed to the Autocomplete and the next Place Detail request. A session starts with the first Autocomplete request (which typically happens when the user starts typing). A Places Details request happens when the user has selected one of the Autocomplete suggestions. If a user does not select a suggestion, means no Places Details request.
