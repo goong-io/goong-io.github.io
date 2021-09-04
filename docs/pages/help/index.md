@@ -11,7 +11,6 @@ products:
 - Documentation
 prependJs:
 - "import Help from '../../components/help-page';"
-- "import Note from '@mapbox/dr-ui/note';"
 ---
 
 
