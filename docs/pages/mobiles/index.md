@@ -13,6 +13,15 @@ products:
 
 Goong use Mapbox based mobile libraries to provide map elements for your applications.
 ## Installation guide and documentation:
+### Mapbox requires a secret token to download their SDKs, you can use this token below or create your own.
+`sk.eyJ1IjoiaWJpbmgiLCJhIjoiY2t2YWZpdXdmMzd4cDMxbHBsNmU4NmNsMyJ9.WT8r42HijaCYAeUPq3xCxA`
+### Or use `.netrc` file below
+```
+machine api.mapbox.com
+login mapbox
+password sk.eyJ1IjoiaWJpbmgiLCJhIjoiY2t2YWZpdXdmMzd4cDMxbHBsNmU4NmNsMyJ9.WT8r42HijaCYAeUPq3xCxA
+```
+### Installation guide
 - [iOS](https://docs.mapbox.com/ios/maps/guides/install/)
 - [Android](https://docs.mapbox.com/android/maps/guides/install/)
 - [React Native](https://github.com/react-native-mapbox-gl/maps/)
