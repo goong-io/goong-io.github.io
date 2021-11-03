@@ -1,5 +1,5 @@
 ---
-title: Add a geocoder control to Goong JS
+title: Add a autocomplete widget to Goong JS
 description: Use goong-geocoder-js to display a search box.
 topics:
   - Geocoder
