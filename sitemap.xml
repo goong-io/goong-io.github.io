@@ -313,10 +313,10 @@
         <loc>https://docs.goong.io/example/zoomto-linestring</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/javascript/events</loc>
+        <loc>https://docs.goong.io/javascript/geography</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/javascript/geography</loc>
+        <loc>https://docs.goong.io/javascript/events</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/javascript/handlers</loc>
@@ -355,10 +355,10 @@
         <loc>https://docs.goong.io/style-spec/expressions</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/style-spec/layers</loc>
+        <loc>https://docs.goong.io/style-spec/glyphs</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/style-spec/glyphs</loc>
+        <loc>https://docs.goong.io/style-spec/layers</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/style-spec/light</loc>
