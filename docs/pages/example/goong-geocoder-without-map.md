@@ -1,5 +1,5 @@
 ---
-title: Use the geocoder without a map
+title: Use the autocomplete widget without a map
 description: Use goong-geocoder-js to display a search box without a map.
 topics:
   - Geocoder
