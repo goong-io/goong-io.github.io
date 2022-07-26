@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 // docs-page-shell
 import ReactPageShell from '../../vendor/docs-page-shell/react-page-shell.js';
 // dr-ui components
-import AnalyticsShell from '@mapbox/dr-ui/analytics-shell';
+// import AnalyticsShell from '@mapbox/dr-ui/analytics-shell';
 import PageLayout from '@mapbox/dr-ui/page-layout';
 import { buildMeta, findParentPath } from '@mapbox/dr-ui/page-layout/utils';
 // site variables
@@ -13,7 +13,6 @@ import { withLocation } from '@mapbox/batfish/modules/with-location';
 // dataSelectors
 import navigation from '@mapbox/batfish/data/navigation';
 import filters from '@mapbox/batfish/data/filters';
-import mbxMeta from '@mapbox/batfish/data/mbx-meta';
 import apiNavigation from '@mapbox/batfish/data/api-navigation';
 
 import { styleSpecNavigation } from '../data/style-spec-navigation';
@@ -25,13 +24,8 @@ import Browser from '@mapbox/dr-ui/browser';
 import redirectApiRef from '../util/api-ref-redirect';
 import classnames from 'classnames';
 import { version } from '../../goong-js/package.json';
-
-import { devDependencies } from '../../package.json';
+import { version as styleSpecVersion } from '../../goong-js/src/style-spec/package.json';
 import slug from 'slugg';
-
-const styleSpecVersion = devDependencies[
-    '@maplibre/maplibre-gl-style-spec'
-].replace('^', '');
 
 const redirectStyleSpec = require('../util/style-spec-redirect');
 
@@ -107,62 +101,57 @@ class PageShell extends React.Component {
                 meta={meta}
                 darkHeaderText={true}
             >
-                <AnalyticsShell
-                    mbxMetadata={mbxMeta[this.props.location.pathname]}
+                <PageLayout
+                    domain={{
+                        title: 'Goong Documents',
+                        path: '/'
+                    }}
+                    hideSearch={true}
                     location={location}
+                    frontMatter={{
+                        ...frontMatter,
+                        ...(frontMatter.overviewHeader && {
+                            overviewHeader: {
+                                ...frontMatter.overviewHeader,
+                                version: isStyleSpec
+                                    ? styleSpecVersion
+                                    : version,
+                                ...(frontMatter.overviewHeader.image && {
+                                    image: (
+                                        <div className="overview-header-browser mb6">
+                                            <Browser>
+                                                <AppropriateImage
+                                                    imageId={
+                                                        frontMatter
+                                                            .overviewHeader
+                                                            .image
+                                                    }
+                                                    alt=""
+                                                    className="hmax300"
+                                                />
+                                            </Browser>
+                                        </div>
+                                    )
+                                })
+                            }
+                        }),
+                        headings: this.renderCustomHeadings()
+                    }}
+                    constants={constants}
+                    navigation={navigation}
+                    filters={filters}
+                    AppropriateImage={AppropriateImage}
+                    // use custom sidebar for API and Style Spec since this data needs to be generated
+                    customAside={this.renderCustomAside()}
                 >
-                    <PageLayout
-                        domain={{
-                            title: 'Goong Documents',
-                            path: '/'
-                        }}
-                        hideSearch={true}
-                        location={location}
-                        frontMatter={{
-                            ...frontMatter,
-                            ...(frontMatter.overviewHeader && {
-                                overviewHeader: {
-                                    ...frontMatter.overviewHeader,
-                                    version: isStyleSpec
-                                        ? styleSpecVersion
-                                        : version,
-                                    ...(frontMatter.overviewHeader.image && {
-                                        image: (
-                                            <div className="overview-header-browser mb6">
-                                                <Browser>
-                                                    <AppropriateImage
-                                                        imageId={
-                                                            frontMatter
-                                                                .overviewHeader
-                                                                .image
-                                                        }
-                                                        alt=""
-                                                        className="hmax300"
-                                                    />
-                                                </Browser>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            }),
-                            headings: this.renderCustomHeadings()
-                        }}
-                        constants={constants}
-                        navigation={navigation}
-                        filters={filters}
-                        AppropriateImage={AppropriateImage}
-                        // use custom sidebar for API and Style Spec since this data needs to be generated
-                        customAside={this.renderCustomAside()}
+                    <div
+                        className={classnames('', {
+                            'style-spec-page': isStyleSpec
+                        })}
                     >
-                        <div
-                            className={classnames('', {
-                                'style-spec-page': isStyleSpec
-                            })}
-                        >
-                            {children}
-                        </div>
-                    </PageLayout>
-                </AnalyticsShell>
+                        {children}
+                    </div>
+                </PageLayout>
             </ReactPageShell>
         );
     }

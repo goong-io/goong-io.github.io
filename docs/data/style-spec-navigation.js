@@ -1,6 +1,6 @@
 import entries from 'object.entries';
 import slug from 'slugg';
-import ref from '@maplibre/maplibre-gl-style-spec/reference/latest';
+import ref from '../../goong-js/src/style-spec/reference/latest';
 import { layerTypes, groupedExpressions } from './types';
 
 /*

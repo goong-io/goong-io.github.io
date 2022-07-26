@@ -134,8 +134,7 @@ const fixture = {
                 children: [
                     {
                         type: 'text',
-                        value:
-                            'Fired when the user cancels a "box zoom" interaction, or when the bounding box does not meet the minimum size threshold.\nSee ',
+                        value: 'Fired when the user cancels a "box zoom" interaction, or when the bounding box does not meet the minimum size threshold.\nSee ',
                         position: {
                             start: {
                                 line: 1,

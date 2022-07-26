@@ -4,13 +4,8 @@ import Title from './title';
 
 export default class SectionWrapper extends React.Component {
     render() {
-        const {
-            children,
-            headingLevel,
-            section,
-            title,
-            titleComponent
-        } = this.props;
+        const { children, headingLevel, section, title, titleComponent } =
+            this.props;
         return (
             <React.Fragment>
                 {title && (
