@@ -20,7 +20,7 @@ Get Direction from A to B.
 | Param          | Description                                                                                | Example                |
 |----------------|--------------------------------------------------------------------------------------------|------------------------|
 | `origin`       | The origin (start) coordinate string (Required)                                            | `20.981971,105.864323` |
-| `destination`  | The destination coordinate string. Split by `;` for more than 2 destinations (Required)     | `21.03876,105.79810`   |
+| `destination`  | The destination coordinate string. Split by `;` for more than 2 destinations (Required)    | `21.03876,105.79810`   |
 | `alternatives` | Boolean, if `true`, Directions service may return several routes                           | `true`                 |
 | `vehicle`      | Vehicle type. Options are `car`, `bike`, `taxi`, `truck`, `hd` (for ride hailing vehicles) | `car`                  |
 

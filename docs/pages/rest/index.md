@@ -18,6 +18,7 @@ prependJs:
     <OverviewHeader
         features={[
             'Directions',
+            'Trip',
             'Distance Matrix',
             'Places',
             'Geocoding',
