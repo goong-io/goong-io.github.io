@@ -26,6 +26,7 @@ Trip service solves the Traveling Salesman Problem using farthest-insertion algo
 
 - If `origin` | `destination` is not specified, 1 best coordinate from `waypoints` will be selected as `origin` | `destination`  
 - `origin`, `waypoints`, `destination` are all optionals, but total coordinates must be at least 10 for best trip
+- Trip are round trip (route return to `origin`), so `origin` and `destination` must be different  
 
 Example request
 

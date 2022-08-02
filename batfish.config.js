@@ -81,7 +81,7 @@ module.exports = () => {
         devBrowserslist: false,
         babelInclude: [
             'documentation',
-            // '@maplibre/maplibre-gl-style-spec',
+            '@maplibre/maplibre-gl-style-spec',
             'fuse.js'
         ],
         webpackStaticIgnore: [/util\/util\.js$/]

@@ -19,6 +19,7 @@ prependJs:
         features={[
             'Directions',
             'Trip',
+            'Speed Limit',
             'Distance Matrix',
             'Places',
             'Geocoding',
@@ -51,7 +52,7 @@ For more information, try our API Play Ground
     <RelatedPage
     contentType="playground"
     title="Goong API Playground"
-    URL="https://inspector.goong.io"
+    url="https://inspector.goong.io"
     >
     Try Goong Maps REST APIs.
     </RelatedPage>

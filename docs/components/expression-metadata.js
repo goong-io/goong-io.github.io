@@ -1,7 +1,7 @@
-import { toString } from '../../goong-js/src/style-spec/expression/types';
-import CompoundExpression from '../../goong-js/src/style-spec/expression/compound_expression';
+import { toString } from '@maplibre/maplibre-gl-style-spec/expression/types';
+import CompoundExpression from '@maplibre/maplibre-gl-style-spec/expression/compound_expression';
 // registers compound expressions
-import '../../goong-js/src/style-spec/expression/definitions/index';
+import '@maplibre/maplibre-gl-style-spec/expression/definitions/index';
 
 const comparisonSignatures = [
     {

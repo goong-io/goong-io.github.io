@@ -55,7 +55,7 @@ You can see the use statistics for all your tokens, for any specified period, on
 
 
 ## Rate limit
-- REST API Key limits 30000 per month, 
+- REST API Key limits 1000 per day, 5 per second. 
 - Maptiles Key limits ~1000 maploads requests per month.
 
 If you exceed this rate limit, your request will be throttled and you will receive a `HTTP 429 Too Many Requests` response from the API.  

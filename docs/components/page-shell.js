@@ -24,7 +24,7 @@ import Browser from '@mapbox/dr-ui/browser';
 import redirectApiRef from '../util/api-ref-redirect';
 import classnames from 'classnames';
 import { version } from '../../goong-js/package.json';
-import { version as styleSpecVersion } from '../../goong-js/src/style-spec/package.json';
+import { version as styleSpecVersion } from '@maplibre/maplibre-gl-style-spec/package.json';
 import slug from 'slugg';
 
 const redirectStyleSpec = require('../util/style-spec-redirect');
