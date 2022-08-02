@@ -148,10 +148,10 @@
         <loc>https://docs.goong.io/example/filter-markers</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/example/fitbounds</loc>
+        <loc>https://docs.goong.io/example/filter-markers-by-input</loc>
     </url>
     <url>
-        <loc>https://docs.goong.io/example/filter-markers-by-input</loc>
+        <loc>https://docs.goong.io/example/fitbounds</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/example/flyto</loc>
@@ -349,7 +349,13 @@
         <loc>https://docs.goong.io/rest/place</loc>
     </url>
     <url>
+        <loc>https://docs.goong.io/rest/speed-limit</loc>
+    </url>
+    <url>
         <loc>https://docs.goong.io/rest/staticmap</loc>
+    </url>
+    <url>
+        <loc>https://docs.goong.io/rest/trip</loc>
     </url>
     <url>
         <loc>https://docs.goong.io/style-spec/expressions</loc>
