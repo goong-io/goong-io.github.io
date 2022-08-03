@@ -19,7 +19,7 @@ Get max speed at a given location.
 | Param | Description | Example      |
 |-------|-------------|--------------|
 | `lat` | Latitude    | 10.8005397   |
-| `lon` | Latitude    | 106.6393208  |
+| `lon` | Longitude    | 106.6393208  |
 
 Example request
 
